@@ -49,7 +49,12 @@ def send_help(message):
 	''')
 
 @bot.message_handler(commands=['lowprice'])
-def send_lowprice(message : telebot.types.Message) -> None:
+def command_lowprice(message : telebot.types.Message) -> None:
+    '''
+    Начальное состояние команды lowprice
+    :param message:
+    :return:
+    '''
     chat_id = message.chat.id
     global chat_info
     chat_info[chat_id] = {'command' : 'lowprice',
@@ -61,6 +66,44 @@ def send_lowprice(message : telebot.types.Message) -> None:
     # Для FSM регистрируем callback функцию для следующего шага
     bot.register_next_step_handler(message, state_get_city, chatinfo=chat_info)
 
+@bot.message_handler(commands=['highiprice'])
+def command_highiprice(message : telebot.types.Message) -> None:
+    '''
+    Начальное состояние команды highiprice
+    :param message:
+    :return:
+    '''
+    chat_id = message.chat.id
+    global chat_info
+    chat_info[chat_id] = {'command' : 'highiprice',
+                          'city' : None,
+                          'results_count' : None,
+                          'photo_in' : None,
+                          'photo_count' : None}
+    bot.send_message(chat_id=chat_id ,text='Введите город поиска')
+    # Для FSM регистрируем callback функцию для следующего шага
+    bot.register_next_step_handler(message, state_get_city, chatinfo=chat_info)
+
+
+@bot.message_handler(commands=['bestdeal'])
+def command_highiprice(message : telebot.types.Message) -> None:
+    '''
+    Начальное состояние команды bestdeal
+    :param message:
+    :return:
+    '''
+    chat_id = message.chat.id
+    global chat_info
+    chat_info[chat_id] = {'command' : 'bestdeal',
+                          'city' : None,
+                          'results_count' : None,
+                          'photo_in' : None,
+                          'photo_count' : None}
+    bot.send_message(chat_id=chat_id ,text='Введите город поиска')
+    # Для FSM регистрируем callback функцию для следующего шага
+    bot.register_next_step_handler(message, state_get_city, chatinfo=chat_info)
+
+
 @bot.message_handler(commands=['cancel'])
 def concel_last_command(message):
     chat_id = message.chat.id
@@ -69,8 +112,26 @@ def concel_last_command(message):
         del chat_info[chat_id]
         bot.send_message(chat_id=chat_id ,text='Последняя команда отменена.')
 
+
+@bot.message_handler(commands=['history'])
+def command_history(message):
+    '''
+    Коман6да вывода истории введенных ранее команд
+    :param message:
+    :return:
+    '''
+    chat_id = message.chat.id
+    bot.send_message(chat_id=chat_id ,text='История ранее введенных команд')
+
+
+
 @bot.message_handler(message=lambda m: True)
 def not_recognizing_command(message):
+    '''
+    Обработка неизвестных команд и текста
+    :param message:
+    :return:
+    '''
     bot.reply_to(message, "Вы ввели неверную команду?")
     send_help(message)
 
@@ -89,6 +150,21 @@ def cancel_command(func):
     return wrapper
 """
 
+def run_api(chat_id: int, chatinfo: Dict) -> None:
+    '''
+    Вспомогательная функция для запуска api hottels
+    :param chat_id:
+    :param chatinfo:
+    :return:
+    '''
+    if chatinfo[chat_id]['command'] == 'lowprice':
+        bot.send_message(chat_id=chat_id, text='Выполняется подборка дешёвых отелей по введенным вами параметрам....')
+        # TODO hotels_get_lowprice(chatinfo)
+    elif chatinfo[chat_id]['command'] == 'highiprice':
+        bot.send_message(chat_id=chat_id, text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
+        # TODO hotels_get_highprice(chatinfo)
+
+
 @states.cancel_command(concel_last_command)
 def state_get_city(message : telebot.types.Message, chatinfo: Dict) -> None:
     '''
@@ -102,7 +178,7 @@ def state_get_city(message : telebot.types.Message, chatinfo: Dict) -> None:
     city = pat_city.search(message.text)
     if city:
         chatinfo[chat_id]['city'] = city.group(0)
-        if chatinfo[chat_id]['command'] == 'lowprice':
+        if chatinfo[chat_id]['command'] in ['lowprice', 'highiprice']:
             bot.register_next_step_handler(message=message, callback=state_get_result_count, chatinfo=chat_info)
             bot.send_message(chat_id=chat_id, text=f'Введите кол-во выводимых результатов. (Макчимальное колличество: {MAX_SEARCH_RESULT})')
     else:
@@ -124,7 +200,7 @@ def state_get_result_count(message : telebot.types.Message, chatinfo: Dict) -> N
         result_count = MAX_SEARCH_RESULT
         bot.send_message(chat_id=chat_id, text=f'Кол-во выводимых результатов установлено {MAX_SEARCH_RESULT}')
     chatinfo[chat_id]['results_count'] = result_count
-    if chatinfo[chat_id]['command'] == 'lowprice':
+    if chatinfo[chat_id]['command'] in ['lowprice', 'highiprice', 'bestdeal']:
         bot.register_next_step_handler(message=message, callback=state_get_photo_in, chatinfo=chat_info)
         markup = telebot.types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True)
         item_btn_yes = telebot.types.KeyboardButton('Да')
@@ -146,9 +222,9 @@ def state_get_photo_in(message : telebot.types.Message, chatinfo: Dict) -> None:
         bot.register_next_step_handler(message=message, callback=state_get_photo_count, chatinfo=chat_info)
         bot.send_message(chat_id=chat_id, text='Кол-во выводимых фотографий в результатах поиска')
     else:
-        if chatinfo[chat_id]['command'] == 'lowprice':
-            bot.send_message(chat_id=chat_id, text='Выполняется подборка отелей по введенным вами параметрам....')
-            # TODO hotels_get_lowprice(chatinfo)
+        run_api(chat_id, chatinfo)
+
+
 
 @states.cancel_command(concel_last_command)
 def state_get_photo_count(message : telebot.types.Message, chatinfo: Dict) -> None:
@@ -165,10 +241,14 @@ def state_get_photo_count(message : telebot.types.Message, chatinfo: Dict) -> No
         photo_count = MAX_PHOTE_RESULT
         bot.send_message(chat_id=chat_id, text=f'Кол-во выводимых фотографий {MAX_PHOTE_RESULT}')
     chatinfo[chat_id]['photo_count'] = photo_count
-    if chatinfo[chat_id]['command'] == 'lowprice':
+    if chatinfo[chat_id]['command'] in ['lowprice', 'highiprice']:
         bot.register_next_step_handler(message=message, callback=state_get_photo_in, chatinfo=chat_info)
         bot.send_message(chat_id=chat_id, text='Вводить фотогафии (да/нет) ?')
+    #TODO
 
+# TODO диапазон цен
+
+# TODO диапазон расстояния от центра
 
 if __name__ == '__main__':
     print("Слушаем сообщения от Telegram")
