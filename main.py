@@ -105,7 +105,7 @@ def command_highiprice(message : telebot.types.Message) -> None:
 
 
 @bot.message_handler(commands=['cancel'])
-def concel_last_command(message):
+def concel_last_command(message: telebot.types.Message):
     chat_id = message.chat.id
     global chat_info
     if chat_id in chat_info:
@@ -114,7 +114,7 @@ def concel_last_command(message):
 
 
 @bot.message_handler(commands=['history'])
-def command_history(message):
+def command_history(message: telebot.types.Message):
     '''
     Коман6да вывода истории введенных ранее команд
     :param message:
@@ -124,9 +124,8 @@ def command_history(message):
     bot.send_message(chat_id=chat_id ,text='История ранее введенных команд')
 
 
-
-@bot.message_handler(message=lambda m: True)
-def not_recognizing_command(message):
+@bot.message_handler(func=lambda m: True)
+def not_recognizing_command(message: telebot.types.Message):
     '''
     Обработка неизвестных команд и текста
     :param message:
@@ -135,24 +134,10 @@ def not_recognizing_command(message):
     bot.reply_to(message, "Вы ввели неверную команду?")
     send_help(message)
 
-"""
-def cancel_command(func):
-    '''
-    Декоратор обрабатывающий команду отмены последней введенной команды в ходе её выполнения
-    :param func:
-    :return:
-    '''
-    def wrapper(message : telebot, chatinfo: Dict):
-        if telebot.util.is_command(message.text) and telebot.util.extract_command(message.text):
-            concel_last_command(message)
-            return
-        return func(message, chatinfo)
-    return wrapper
-"""
 
 def run_api(chat_id: int, chatinfo: Dict) -> None:
     '''
-    Вспомогательная функция для запуска api hottels
+    Вспомогательная функция для запуска api функций hottels
     :param chat_id:
     :param chatinfo:
     :return:
@@ -163,6 +148,9 @@ def run_api(chat_id: int, chatinfo: Dict) -> None:
     elif chatinfo[chat_id]['command'] == 'highiprice':
         bot.send_message(chat_id=chat_id, text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
         # TODO hotels_get_highprice(chatinfo)
+    elif chatinfo[chat_id]['command'] == 'bestdeal':
+        bot.send_message(chat_id=chat_id, text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
+        # TODO hotels_get_bestdeal(chatinfo)
 
 
 @states.cancel_command(concel_last_command)
@@ -222,9 +210,11 @@ def state_get_photo_in(message : telebot.types.Message, chatinfo: Dict) -> None:
         bot.register_next_step_handler(message=message, callback=state_get_photo_count, chatinfo=chat_info)
         bot.send_message(chat_id=chat_id, text='Кол-во выводимых фотографий в результатах поиска')
     else:
-        run_api(chat_id, chatinfo)
-
-
+        chatinfo[chat_id]['photo_in'] = 0
+        if chatinfo[chat_id]['command'] in ['bestdeal']:
+            bot.register_next_step_handler(message=message, callback=state_get_price_max_min, chatinfo=chat_info)
+        else:
+            run_api(chat_id, chatinfo)
 
 @states.cancel_command(concel_last_command)
 def state_get_photo_count(message : telebot.types.Message, chatinfo: Dict) -> None:
@@ -235,20 +225,66 @@ def state_get_photo_count(message : telebot.types.Message, chatinfo: Dict) -> No
     :return:
     '''
     chat_id = message.chat.id
+    # Если введено число то выводим кол-во фотографий но не больше чем заданное максимальное кол-во
+    # если ввели что-то непонятное, то берём заданное максимальное кол-во выводимых фотографий
     if message.text.isdigit():
         photo_count = int(message.text) if int(message.text) <  MAX_PHOTE_RESULT else MAX_PHOTE_RESULT
     else:
         photo_count = MAX_PHOTE_RESULT
         bot.send_message(chat_id=chat_id, text=f'Кол-во выводимых фотографий {MAX_PHOTE_RESULT}')
     chatinfo[chat_id]['photo_count'] = photo_count
-    if chatinfo[chat_id]['command'] in ['lowprice', 'highiprice']:
-        bot.register_next_step_handler(message=message, callback=state_get_photo_in, chatinfo=chat_info)
-        bot.send_message(chat_id=chat_id, text='Вводить фотогафии (да/нет) ?')
-    #TODO
+    if chatinfo[chat_id]['command'] in ['bestdeal']:
+        bot.register_next_step_handler(message=message, callback=state_get_price_max_min, chatinfo=chat_info)
+    else:
+        run_api(chat_id, chatinfo)
 
-# TODO диапазон цен
+@states.cancel_command(concel_last_command)
+def state_get_price_max_min(message : telebot.types.Message, chatinfo: Dict) -> None:
+    '''
+     Коллбэк функция для FSM
+     Диапазон цен
+     :param message:
+     :return:
+     '''
+    chat_id = message.chat.id
+    tmp_range = re.compile(r'(\d+)\s+(\d+)')
+    result = tmp_range.findall(message)
+    min = result[0]
+    max = result[1]
+    # Проверяем, что введены два числа через пробел
+    if max > min :
+        chatinfo[chat_id]['price_min'] = min
+        chatinfo[chat_id]['price_max'] = max
+        bot.register_next_step_handler(message=message, callback=state_get_distance_max_min, chatinfo=chat_info)
+        bot.send_message(chat_id=chat_id, text=f'Введите через пробел диапазон расстояния от центра (MAX MIN)')
+    else:
+        bot.register_next_step_handler(message=message, callback=state_get_price_max_min, chatinfo=chat_info)
+        bot.send_message(chat_id=chat_id, text=f'Введите диапазон цен через пробел (MAX MIN)')
 
-# TODO диапазон расстояния от центра
+
+@states.cancel_command(concel_last_command)
+def state_get_distance_max_min(message : telebot.types.Message, chatinfo: Dict) -> None:
+    '''
+     Коллбэк функция для FSM
+     Диапазон расстояний
+     :param message:
+     :return:
+     '''
+    chat_id = message.chat.id
+    tmp_range = re.compile(r'(\d+)\s+(\d+)')
+    result = tmp_range.findall(message)
+    min = result[0]
+    max = result[1]
+    # Проверяем, что введены два числа через пробел
+    if max > min :
+        chatinfo[chat_id]['distance_min'] = min
+        chatinfo[chat_id]['distance_max'] = max
+        run_api(chat_id, chatinfo)
+    else:
+        bot.register_next_step_handler(message=message, callback=state_get_distance_max_min, chatinfo=chat_info)
+        bot.send_message(chat_id=chat_id, text=f'Введите через пробел диапазон расстояния от центра (MAX MIN)')
+
+
 
 if __name__ == '__main__':
     print("Слушаем сообщения от Telegram")
