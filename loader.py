@@ -20,6 +20,8 @@ MAX_PHOTE_RESULT = 5
 
 hotels = hotelsapi.hotels(API_KEY)
 bot = TeleBot(TOKEN_TELEGRAM, parse_mode=None)
+bot.MAX_SEARCH_RESULT = MAX_SEARCH_RESULT
+bot.MAX_PHOTE_RESULT = MAX_PHOTE_RESULT
 
 class User_request:
     def __init__(self):
