@@ -13,17 +13,21 @@ with open('secret.json', 'r') as fconfig:
 TOKEN_TELEGRAM = secure_config['TOKEN_TELEGRAM']
 API_KEY = secure_config['API_KEY']
 
-#Максимальное кол-во результатов в ответе
+# Максимальное кол-во результатов в ответе
 MAX_SEARCH_RESULT = 20
-#Максимальное кол-во фотогорафий для одного отеля
-MAX_PHOTE_RESULT = 5
+# Максимальное кол-во фотогорафий для одного отеля
+MAX_PHOTO_RESULT = 3
 
-hotels = hotelsapi.hotels(API_KEY)
+hotels = hotelsapi.Hotels(API_KEY)
 bot = TeleBot(TOKEN_TELEGRAM, parse_mode=None)
 bot.MAX_SEARCH_RESULT = MAX_SEARCH_RESULT
-bot.MAX_PHOTE_RESULT = MAX_PHOTE_RESULT
+bot.MAX_PHOTO_RESULT = MAX_PHOTO_RESULT
 
-class User_request:
+# Словарь для хранения текущей информации по диалогам
+chat_info = dict()
+
+
+class UserRequest:
     def __init__(self):
         self.Command = None
         self.City = None
@@ -32,8 +36,6 @@ class User_request:
         self.Distance_min = None
         self.Distance_max = None
         self.Search_result_count = MAX_SEARCH_RESULT
-        self.Photo_count = MAX_PHOTE_RESULT
+        self.Photo_count = MAX_PHOTO_RESULT
         self.Photo_out = True
-
-
 

@@ -1,38 +1,113 @@
 import requests
 from typing import List, Tuple
+import json
+from datetime import date, timedelta
+import math
 
-class hotels:
-   def __init__(self, api_key : str) -> None:
-      self.__api_key = api_key
-      self.__headers = headers = {
-         'x-rapidapi-host': "hotels4.p.rapidapi.com",
-         'x-rapidapi-key': self.__api_key
-      }
 
-   def get_destinationid(self, destination : str) -> Tuple:
-      '''
-      Метод получает из API информацию по запрашиваемому месту
-      '''
-      url = "https://hotels4.p.rapidapi.com/locations/search"
-      
-      querystring = {"query":destination,"locale":"ru_RU"}
-      response = requests.request("GET", url, headers=self.__headers, params=querystring)
-      city_info = list(filter(lambda el: el['type'] == 'CITY' , response.json()['suggestions'][0]['entities']))
-      return city_info[0]['destinationId'], city_info[0]['name']
-   
-   def get_hotels(self, destinationId : str, pageNumber : int) -> str:
-      url = "https://hotels4.p.rapidapi.com/properties/list"
-      querystring = {
-         "destinationId" : destinationId,
-         "pageNumber" : pageNumber,
-         "pageSize":"2",
-         "checkIn":"2021-10-03",
-         "checkOut":"2020-10-15",
-         "adults1":"1",
-         "sortOrder":"PRICE",
-         "locale":"ru_RU",
-         "currency":"RUB"
-      }
-      response = requests.request("GET", url, headers=self.__headers, params=querystring)
-      return response.json()
-    
+
+class Hotels:
+    def __init__(self, api_key: str) -> None:
+        self.__api_key = api_key
+        self.__headers = {
+            'x-rapidapi-host': "hotels4.p.rapidapi.com",
+            'x-rapidapi-key': self.__api_key
+        }
+
+    def get_destinationid(self, destination: str) -> Tuple:
+        """
+            Метод получает из API информацию по запрашиваемому месту
+         """
+        url = "https://hotels4.p.rapidapi.com/locations/search"
+        querystring = {"query": destination, "locale": "ru_RU"}
+        response = requests.request("GET", url, headers=self.__headers, params=querystring)
+        response.encoding = 'utf-8'
+        city_info = list(filter(lambda el: el['type'] == 'CITY', response.json()['suggestions'][0]['entities']))
+        return city_info[0]['destinationId'], city_info[0]['name']
+
+    def get_hotels(self, destinationId: str, pageNumber: int = 1, pageSize: int = 25, sortOrder: str = 'PRICE',
+                   priceMin: float = -1, priceMax: float = -1, distanceMin: float = -1, distanceMax: float = -1) -> str:
+        """
+        Метод фозвращает список отелей
+        :param distanceMax: Максимальное расстоение до центра
+        :param distanceMin: Минимальное расстояние до центра
+        :param priceMax: Максимальна цена
+        :param priceMin: Минимальная цена
+        :param sortOrder: Порядок сортировки результата (возможные варианты BEST_SELLER|STAR_RATING_HIGHEST_FIRST|
+        STAR_RATING_LOWEST_FIRST|DISTANCE_FROM_LANDMARK|GUEST_RATING|PRICE_HIGHEST_FIRST|PRICE)
+        :param pageSize: Кол-во результатов выводимых в одном запросе (Max 25)
+        :param destinationId: ID  населенного пункта возвращаемого функцией get_destinationid
+        :param pageNumber: Номер запроса возвращающий данные в размере pageSize
+        :return:
+        """
+        url = "https://hotels4.p.rapidapi.com/properties/list"
+        pageSize = 25 if pageSize > 25 else pageSize
+        querystring = {
+            "destinationId": destinationId,
+            "pageNumber": pageNumber,
+            "pageSize": pageSize,
+            "checkIn": date.today(),
+            "checkOut": date.today() + timedelta(days=1),
+            "adults1": "1",
+            "sortOrder": sortOrder,
+            "locale": "ru_RU",
+            "currency": "RUB"
+        }
+        if 0 < priceMin < priceMax and priceMax > 0:
+            querystring['priceMin'] = priceMin
+            querystring['priceMax'] = priceMax
+        if 0 < distanceMin < distanceMax and distanceMax > 0:
+            querystring['landmarkIds'] = f'{str(distanceMin)}, {str(distanceMax)}'
+        response = requests.request("GET", url, headers=self.__headers, params=querystring)
+        return response.json()
+
+    def get_hotels_photos(self, _hotelId: int) -> List:
+        """
+        Метод выводит список словфотографий отелей
+        :param _hotelId: ID отеля из метода get_hotels
+        :return:
+        """
+        url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
+        querystring = {"id": _hotelId}
+        response = requests.request("GET", url, headers=self.__headers, params=querystring)
+        photosJson = response.json()
+        return photosJson["hotelImages"]
+
+    def get_hotels_price_sort(self, _city: str, _outCount: int, _sort: str = 'PRICE') -> List:
+        result = list()
+        city = self.get_destinationid(_city)
+        for page_index in range(1, math.ceil(_outCount / 25) + 1):
+            page_size = _outCount if (_outCount - 25) < 0 else 25
+            out = self.get_hotels(destinationId=city[0], pageNumber=page_index, pageSize=page_size, sortOrder=_sort)
+            result.extend(out['data']['body']['searchResults']['results'])
+        return result
+
+    def get_hotels_bestdeal(self, _city: str, _outCount: int, _priceMin: float, _priceMax: float,
+                            _distanceMin: float, _distanceMax: float, _sort: str = 'PRICE') -> List:
+        result = list()
+        city = self.get_destinationid(_city)
+        for page_index in range(1, math.ceil(_outCount / 25) + 1):
+            page_size = _outCount if (_outCount - 25) < 0 else 25
+            out = self.get_hotels(destinationId=city[0], pageNumber=page_index, pageSize=page_size, sortOrder=_sort,
+                                  priceMin=_priceMin, priceMax=_priceMax, distanceMin=_distanceMin,
+                                  distanceMax=_distanceMax)
+            result.extend(out['data']['body']['searchResults']['results'])
+        return result
+
+if __name__ == "__main__":
+    with open('secret.json', 'r') as fconfig:
+        secure_config = json.load(fconfig)
+
+    API_KEY = secure_config['API_KEY']
+    hotels = Hotels(API_KEY)
+    out = hotels.get_hotels_price_sort(_city='Москва', _outCount=10, _sort='PRICE_HIGHEST_FIRST')
+    for hotel in out:
+        # Расстояние до центра города
+        landmark = list([hotel['landmarks'][index]['distance'] for index in range(len(hotel['landmarks']))
+                         if hotel['landmarks'][index]['label'] == 'Центр города'])[0]
+        price = f"{hotel['ratePlan']['price']['current']} {hotel['ratePlan']['price']['info']} " \
+                f"{hotel['ratePlan']['price']['summary']}"
+        address = hotel['address']['streetAddress']
+        name = hotel['name']
+        print(f"Название: {name}\nАдрес: {address}\nДо центра: {landmark}\nЦена: {price}")
+        hotels.get_hotels_photos(_hotelId=hotel['id'])
