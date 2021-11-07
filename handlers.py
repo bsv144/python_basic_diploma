@@ -1,11 +1,27 @@
+import logging
+from json import JSONDecodeError
 from typing import Dict, Callable
-from telebot import types, TeleBot
-from loader import bot, hotels
+from telebot import types, util
+from loader import bot, hotels, History
 import re
+import pickle
 
-"""
-2 - дочерний handlers.py в нем объявляются все кастомные хендлеры - получение города, количества отлей и прочее
-"""
+
+def cancel_command(func):
+    """
+    Декоратор отмена последней введенной команды в ходе её выполнения
+    :param func:
+    :return:
+    """
+    def wrapper(message: types.Message, chatinfo: Dict):
+        if util.is_command(message.text) and util.extract_command(message.text).lower() == 'cancel':
+            chat_id = message.chat.id
+            if chat_id in chatinfo:
+                del chatinfo[chat_id]
+                bot.send_message(chat_id=chat_id, text='Последняя команда отменена.')
+            return
+        return func(message, chatinfo)
+    return wrapper
 
 
 def run_api(chat_id: int, chatinfo: Dict) -> None:
@@ -16,25 +32,32 @@ def run_api(chat_id: int, chatinfo: Dict) -> None:
     :return:
     """
     user_request = chatinfo[chat_id]
-    if user_request.Command == 'lowprice':
+    request_result = list()
+    out = None
+    try:
+        if user_request.Command == 'lowprice':
+            bot.send_message(chat_id=chat_id,
+                             text='Выполняется подборка дешёвых отелей по введенным вами параметрам....')
+            out = hotels.get_hotels_price_sort(_city=user_request.City, _outCount=user_request.Search_result_count)
+        elif user_request.Command == 'highprice':
+            bot.send_message(chat_id=chat_id,
+                             text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
+            out = hotels.get_hotels_price_sort(_city=user_request.City, _outCount=user_request.Search_result_count,
+                                               _sort='PRICE_HIGHEST_FIRST')
+        elif user_request.Command == 'bestdeal':
+            bot.send_message(chat_id=chat_id,
+                             text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
+            out = hotels.get_hotels_bestdeal(_city=user_request.City, _outCount=user_request.Search_result_count,
+                                             _priceMin=int(user_request.Price_min),
+                                             _priceMax=int(user_request.Price_max),
+                                             _distanceMin=float(user_request.Distance_min),
+                                             _distanceMax=float(user_request.Distance_max))
+    except JSONDecodeError:
         bot.send_message(chat_id=chat_id,
-                         text='Выполняется подборка дешёвых отелей по введенным вами параметрам....')
-        out = hotels.get_hotels_price_sort(_city=user_request.City, _outCount=user_request.Search_result_count)
-    elif user_request.Command == 'highprice':
-        bot.send_message(chat_id=chat_id,
-                         text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
-        out = hotels.get_hotels_price_sort(_city=user_request.City, _outCount=user_request.Search_result_count,
-                                           _sort='PRICE_HIGHEST_FIRST')
-    elif user_request.Command == 'bestdeal':
-        bot.send_message(chat_id=chat_id,
-                         text='Выполняется подборка наиболее дорогих отелей по введенным вами параметрам....')
-        out = hotels.get_hotels_bestdeal(_city=user_request.City, _outCount=user_request.Search_result_count,
-                                   _priceMin=int(user_request.Price_min), _priceMax=int(user_request.Price_max),
-                                         _distanceMin=-1,
-                                         _distanceMax=-1)
-                                   #_distanceMin=float(user_request.Distance_min), _distanceMax=float(user_request.Distance_max))
-
-    if out is None:
+                         text="Упс. Произошла ошибка. Попробуйте повторить запрос чуть позже.")
+        return
+    logging.warning(f'{chat_id} - {user_request} - {out}')
+    if out is None or len(out) == 0:
         bot.send_message(chat_id=chat_id,
                          text="По вашему запросу отсутствуют результаты поиска.")
     else:
@@ -45,8 +68,11 @@ def run_api(chat_id: int, chatinfo: Dict) -> None:
                     f"{hotel['ratePlan']['price']['summary']}"
             address = hotel['address']['streetAddress']
             name = hotel['name']
-            # print(f"Название: {name}\nАдрес: {address}\nДо центра: {landmark}\nЦена: {price}")
-            bot.send_message(chat_id=chat_id, text=f"Название: {name}\nАдрес: {address}\nДо центра: {landmark}\nЦена: {price}")
+            bot.send_message(chat_id=chat_id,
+                             text=f"Название: {name}\nАдрес: {address}\nДо центра: {landmark}\nЦена: {price}")
+            request_result.append(
+                dict(_hotel=f"Название: {name}\nАдрес: {address}\nДо центра: {landmark}\nЦена: {price}",
+                     _photo=list()))
             if user_request.Photo_out:
                 photo = hotels.get_hotels_photos(_hotelId=hotel['id'])
                 if len(photo) >= user_request.Photo_count:
@@ -54,9 +80,15 @@ def run_api(chat_id: int, chatinfo: Dict) -> None:
                         image_url_template = photo[photo_index]['baseUrl']
                         image_url = image_url_template.replace('{size}', 'z')
                         bot.send_photo(chat_id=chat_id, photo=image_url)
+                        request_result[-1]['_photo'].append(image_url)
+
+    history = History(userId=chat_id,
+                      userRequest=pickle.dumps(user_request),
+                      requestResult=pickle.dumps(request_result))
+    history.save()
 
 
-
+@cancel_command
 def state_get_city(message: types.Message, chatinfo: Dict) -> None:
     """
     Коллбэк функция для FSM
@@ -81,6 +113,7 @@ def state_get_city(message: types.Message, chatinfo: Dict) -> None:
         bot.register_next_step_handler(message=message, callback=state_get_city, chat_info=chatinfo)
 
 
+@cancel_command
 def state_get_result_count(message: types.Message, chatinfo: Dict) -> None:
     """
     Коллбэк функция для FSM
@@ -107,6 +140,7 @@ def state_get_result_count(message: types.Message, chatinfo: Dict) -> None:
         bot.send_message(chat_id=chat_id, text='Вводить фотогафии (да/нет) ?', reply_markup=markup)
 
 
+@cancel_command
 def state_get_photo_in(message: types.Message, chatinfo: Dict) -> None:
     """
     Коллбэк функция для FSM
@@ -132,6 +166,7 @@ def state_get_photo_in(message: types.Message, chatinfo: Dict) -> None:
             run_api(chat_id, chatinfo)
 
 
+@cancel_command
 def state_get_photo_count(message: types.Message, chatinfo: Dict) -> None:
     """
     Коллбэк функция для FSM
@@ -157,6 +192,7 @@ def state_get_photo_count(message: types.Message, chatinfo: Dict) -> None:
         run_api(chat_id, chatinfo)
 
 
+@cancel_command
 def state_get_price_max_min(message: types.Message, chatinfo: Dict) -> None:
     """
      Коллбэк функция для FSM
@@ -189,10 +225,10 @@ def state_get_price_max_min(message: types.Message, chatinfo: Dict) -> None:
             bot.send_message(chat_id=chat_id, text=f'Введите диапазон цен через пробел (MIN MAX)')
 
 
+@cancel_command
 def state_get_distance_max_min(message: types.Message, chatinfo: Dict) -> None:
     """
-     Коллбэк функция для FSM
-     Диапазон расстояний
+     Коллбэк функция для FSM Диапазон расстояний
      :param chatinfo:
      :param message:
      :return:
@@ -217,3 +253,27 @@ def state_get_distance_max_min(message: types.Message, chatinfo: Dict) -> None:
         else:
             bot.register_next_step_handler(message=message, callback=state_get_distance_max_min, chatinfo=chatinfo)
             bot.send_message(chat_id=chat_id, text=f'Введите через пробел диапазон расстояния от центра (MIN MAX)')
+
+
+def state_get_history_top(message: types.Message) -> None:
+    """
+    Коллбэк функция для FSM колличество выводимых результатов истории
+    :param message:
+    :return:
+    """
+    chat_id = message.chat.id
+    if not message.text.isdigit():
+        bot.send_message(chat_id=chat_id, text=f'Кол-во выводимых результатов установлено: 3')
+        result_count = 3
+    else:
+        result_count = int(message.text)
+    query = History.select().where(History.userId == chat_id).order_by(History.dt.desc()).limit(result_count)
+    for record in query:
+        ur = pickle.loads(record.userRequest)
+        rr = pickle.loads(record.requestResult)
+        bot.send_message(chat_id=chat_id, text=f'Запись от {record.dt}')
+        bot.send_message(chat_id=chat_id, text=ur)
+        for hotel in rr:
+            bot.send_message(chat_id=chat_id, text=hotel['_hotel'])
+            for image_url in hotel['_photo']:
+                bot.send_photo(chat_id=chat_id, photo=image_url)

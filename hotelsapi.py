@@ -1,9 +1,9 @@
+from json import JSONDecodeError
 import requests
-from typing import List, Tuple
+from typing import List, Tuple, Union
 import json
 from datetime import date, timedelta
 import math
-
 
 
 class Hotels:
@@ -14,11 +14,11 @@ class Hotels:
             'x-rapidapi-key': self.__api_key
         }
 
-    def get_destinationid(self, destination: str) -> Tuple:
+    def get_destinationid(self, destination: str) -> Union[Tuple, None]:
         """
             Метод получает из API информацию по запрашиваемому месту
          """
-        url = "https://hotels4.p.rapidapi.com/locations/search"
+        url = "https://hotels4.p.rapidapi.com/locations/v2/search"
         querystring = {"query": destination, "locale": "ru_RU"}
         response = requests.request("GET", url, headers=self.__headers, params=querystring)
         response.encoding = 'utf-8'
@@ -26,7 +26,8 @@ class Hotels:
         return city_info[0]['destinationId'], city_info[0]['name']
 
     def get_hotels(self, destinationId: str, pageNumber: int = 1, pageSize: int = 25, sortOrder: str = 'PRICE',
-                   priceMin: float = -1, priceMax: float = -1, distanceMin: float = -1, distanceMax: float = -1) -> str:
+                   priceMin: float = -1, priceMax: float = -1, distanceMin: float = -1,
+                   distanceMax: float = -1) -> Union[str, None]:
         """
         Метод фозвращает список отелей
         :param distanceMax: Максимальное расстоение до центра
@@ -61,7 +62,7 @@ class Hotels:
         response = requests.request("GET", url, headers=self.__headers, params=querystring)
         return response.json()
 
-    def get_hotels_photos(self, _hotelId: int) -> List:
+    def get_hotels_photos(self, _hotelId: int) -> Union[List, None]:
         """
         Метод выводит список словфотографий отелей
         :param _hotelId: ID отеля из метода get_hotels
@@ -73,9 +74,11 @@ class Hotels:
         photosJson = response.json()
         return photosJson["hotelImages"]
 
-    def get_hotels_price_sort(self, _city: str, _outCount: int, _sort: str = 'PRICE') -> List:
+    def get_hotels_price_sort(self, _city: str, _outCount: int, _sort: str = 'PRICE') -> Union[List, None]:
         result = list()
         city = self.get_destinationid(_city)
+        if city is None:
+            return None
         for page_index in range(1, math.ceil(_outCount / 25) + 1):
             page_size = _outCount if (_outCount - 25) < 0 else 25
             out = self.get_hotels(destinationId=city[0], pageNumber=page_index, pageSize=page_size, sortOrder=_sort)
@@ -83,9 +86,11 @@ class Hotels:
         return result
 
     def get_hotels_bestdeal(self, _city: str, _outCount: int, _priceMin: float, _priceMax: float,
-                            _distanceMin: float, _distanceMax: float, _sort: str = 'PRICE') -> List:
+                            _distanceMin: float, _distanceMax: float, _sort: str = 'PRICE') -> Union[List, None]:
         result = list()
         city = self.get_destinationid(_city)
+        if city is None:
+            return None
         for page_index in range(1, math.ceil(_outCount / 25) + 1):
             page_size = _outCount if (_outCount - 25) < 0 else 25
             out = self.get_hotels(destinationId=city[0], pageNumber=page_index, pageSize=page_size, sortOrder=_sort,
@@ -93,6 +98,7 @@ class Hotels:
                                   distanceMax=_distanceMax)
             result.extend(out['data']['body']['searchResults']['results'])
         return result
+
 
 if __name__ == "__main__":
     with open('secret.json', 'r') as fconfig:
