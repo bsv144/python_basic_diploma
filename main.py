@@ -115,7 +115,7 @@ if __name__ == '__main__':
     # Запускаем ngrok
     http_tunnel = ngrok.connect(5500)
     tunnels = ngrok.get_tunnels()
-
+    # print(tunnels)
 
     @serverHTTP.route('/' + TOKEN_TELEGRAM, methods=['POST'])
     def get_message():
@@ -133,7 +133,10 @@ if __name__ == '__main__':
 
 
     bot.remove_webhook()
-    bot.set_webhook(url=tunnels[1].public_url + "/" + TOKEN_TELEGRAM)
+    for tunnel in tunnels:
+        if tunnel.public_url.startswith('https'):
+            bot.set_webhook(url=tunnel.public_url + "/" + TOKEN_TELEGRAM)
+            break
 
     serverHTTP.run(host="0.0.0.0", port=5500, debug=False)
     ngrok.kill()
