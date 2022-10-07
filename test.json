@@ -1,0 +1,2596 @@
+1{
+     "result": "OK",
+     "data": {
+          "body": {
+               "header": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+               "query": {
+                    "destination": {
+                         "id": "1635711",
+                         "value": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "resolvedLocation": "CITY:1635711:UNKNOWN:UNKNOWN"
+                    }
+               },
+               "searchResults": {
+                    "totalCount": 2300,
+                    "results": [
+                         {
+                              "id": 1337368928,
+                              "name": "\u0425\u043e\u0441\u0442\u0435\u043b FruStyle",
+                              "starRating": 2.0,
+                              "urls": {},
+                              "address": {
+                                   "streetAddress": "\u0443\u043b. 4-\u044f \u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f, 20 ",
+                                   "extendedAddress": "",
+                                   "locality": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                                   "postalCode": "191036",
+                                   "region": "",
+                                   "countryName": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "countryCode": "ru",
+                                   "obfuscate": false
+                              },
+                              "landmarks": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "distance": "3,1 \u043a\u043c"
+                                   },
+                                   {
+                                        "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                        "distance": "16 \u043a\u043c"
+                                   }
+                              ],
+                              "geoBullets": [],
+                              "ratePlan": {
+                                   "price": {
+                                        "current": "881 RUB",
+                                        "exactCurrent": 881.23
+                                   },
+                                   "features": {
+                                        "paymentPreference": false,
+                                        "noCCRequired": false
+                                   }
+                              },
+                              "neighbourhood": "\u043e\u043a\u0440\u0443\u0433 \u0421\u043c\u043e\u043b\u044c\u043d\u0438\u043d\u0441\u043a\u043e\u0435",
+                              "deals": {},
+                              "messaging": {},
+                              "badging": {},
+                              "pimmsAttributes": "DoubleStamps|D13",
+                              "coordinate": {
+                                   "lat": 59.933361,
+                                   "lon": 30.370584
+                              },
+                              "providerType": "LOCAL",
+                              "supplierHotelId": 41761529,
+                              "isAlternative": false,
+                              "optimizedThumbUrls": {
+                                   "srpDesktop": "https://exp.cdn-hotels.com/hotels/42000000/41770000/41761600/41761529/8893840e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                              }
+                         },
+                         {
+                              "id": 1774464480,
+                              "name": "Svarog Art Hotel ",
+                              "starRating": 3.0,
+                              "urls": {},
+                              "address": {
+                                   "streetAddress": "\u0443\u043b. \u041f\u0435\u0441\u0442\u0435\u043b\u044f, 3\u0430",
+                                   "extendedAddress": "",
+                                   "locality": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                                   "postalCode": "191028",
+                                   "region": "",
+                                   "countryName": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "countryCode": "ru",
+                                   "obfuscate": false
+                              },
+                              "guestReviews": {
+                                   "unformattedRating": 6.0,
+                                   "rating": "6,0",
+                                   "total": 1,
+                                   "scale": 10,
+                                   "badge": "good",
+                                   "badgeText": "\u0425\u043e\u0440\u043e\u0448\u043e"
+                              },
+                              "landmarks": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "distance": "1,4 \u043a\u043c"
+                                   },
+                                   {
+                                        "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                        "distance": "17 \u043a\u043c"
+                                   }
+                              ],
+                              "geoBullets": [],
+                              "ratePlan": {
+                                   "price": {
+                                        "current": "1,000 RUB",
+                                        "exactCurrent": 1000.02
+                                   },
+                                   "features": {
+                                        "paymentPreference": false,
+                                        "noCCRequired": false
+                                   }
+                              },
+                              "neighbourhood": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                              "deals": {},
+                              "messaging": {},
+                              "badging": {},
+                              "coordinate": {
+                                   "lat": 59.942068,
+                                   "lon": 30.340026
+                              },
+                              "providerType": "LOCAL",
+                              "supplierHotelId": 55420765,
+                              "isAlternative": false,
+                              "optimizedThumbUrls": {
+                                   "srpDesktop": "https://exp.cdn-hotels.com/hotels/56000000/55430000/55420800/55420765/38772120_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                              }
+                         }
+                    ],
+                    "pagination": {
+                         "currentPage": 1,
+                         "pageGroup": "EXPEDIA_IN_POLYGON",
+                         "nextPageStartIndex": 2,
+                         "nextPageNumber": 2,
+                         "nextPageGroup": "EXPEDIA_IN_POLYGON"
+                    }
+               },
+               "sortResults": {
+                    "options": [
+                         {
+                              "label": "\u0417\u0432\u0435\u0437\u0434\u043d\u043e\u0441\u0442\u044c",
+                              "itemMeta": "star",
+                              "choices": [
+                                   {
+                                        "label": "\u0417\u0432\u0435\u0437\u0434\u044b (\u043f\u043e \u0443\u0431\u044b\u0432\u0430\u043d\u0438\u044e)",
+                                        "value": "STAR_RATING_HIGHEST_FIRST",
+                                        "selected": false
+                                   },
+                                   {
+                                        "label": "\u0417\u0432\u0435\u0437\u0434\u044b (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                                        "value": "STAR_RATING_LOWEST_FIRST",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         },
+                         {
+                              "label": "\u0420\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+                              "itemMeta": "distance",
+                              "choices": [
+                                   {
+                                        "label": "\u0420\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "value": "DISTANCE_FROM_LANDMARK",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": [
+                                   {
+                                        "label": "\u0427\u0442\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c",
+                                        "itemMeta": "landmarks",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                                  "id": 1635711.0
+                                             },
+                                             {
+                                                  "label": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0438\u0439\u0441\u043a\u0438\u0439 (\u041d\u0435\u0441\u043a\u0443\u0447\u043d\u044b\u0439) \u0434\u0432\u043e\u0440\u0435\u0446",
+                                                  "id": 1647738.0
+                                             },
+                                             {
+                                                  "label": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                                  "id": 1793460.0
+                                             },
+                                             {
+                                                  "label": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 \u00ab\u0414\u0432\u043e\u0440\u0435\u0446 \u043a\u043e\u043d\u0433\u0440\u0435\u0441\u0441\u043e\u0432\u00bb",
+                                                  "id": 1788542.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0435\u0446 \u041a\u043e\u0442\u0442\u0435\u0434\u0436",
+                                                  "id": 1788382.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                                  "id": 1647746.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u043e-\u043f\u0430\u0440\u043a\u043e\u0432\u044b\u0439 \u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c \u041f\u0435\u0442\u0435\u0440\u0433\u043e\u0444",
+                                                  "id": 1647720.0
+                                             },
+                                             {
+                                                  "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u0434\u0432\u043e\u0440\u0435\u0446 \u0438 \u043f\u0430\u0440\u043a \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043c\u0443\u0437\u0435\u044f-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                                  "id": 1647726.0
+                                             },
+                                             {
+                                                  "label": "\u0418\u0441\u0430\u0430\u043a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u043e\u0431\u043e\u0440",
+                                                  "id": 1665966.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u0430\u0434",
+                                                  "id": 1647742.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 1793461.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 1793466.0
+                                             },
+                                             {
+                                                  "label": "\u041c\u0443\u0437\u0435\u0439-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                                  "id": 1789448.0
+                                             },
+                                             {
+                                                  "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 11423570.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u0430\u0440\u043a \u0438\u043c\u0435\u043d\u0438 300-\u043b\u0435\u0442\u0438\u044f \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                                  "id": 11425219.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f",
+                                                  "id": 1793463.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u041f\u043e\u0431\u0435\u0434\u044b",
+                                                  "id": 1665963.0
+                                             },
+                                             {
+                                                  "label": "\u0421\u0430\u0434 \u0421\u0430\u043d-\u0413\u0430\u043b\u043b\u0438",
+                                                  "id": 12489120.0
+                                             },
+                                             {
+                                                  "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (RVH-\u0420\u0436\u0435\u0432\u043a\u0430)",
+                                                  "id": 1666189.0
+                                             },
+                                             {
+                                                  "label": "\u042d\u043a\u0441\u043f\u043e\u0444\u043e\u0440\u0443\u043c",
+                                                  "id": 1788364.0
+                                             }
+                                        ]
+                                   },
+                                   {
+                                        "label": "\u0412\u043e\u043a\u0437\u0430\u043b\u044b \u0438 \u0441\u0442\u0430\u043d\u0446\u0438\u0438",
+                                        "itemMeta": "stations",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0412\u0438\u0442\u0435\u0431\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1789831.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0413\u043e\u0441\u0442\u0438\u043d\u044b\u0439 \u0434\u0432\u043e\u0440\u00bb",
+                                                  "id": 1789592.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789594.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0414\u0435\u0432\u044f\u0442\u043a\u0438\u043d\u043e\u00bb",
+                                                  "id": 1789521.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041a\u0440\u0435\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u00bb",
+                                                  "id": 1789596.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789929.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789601.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789923.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789609.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430\u00bb",
+                                                  "id": 1789918.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789611.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u0430\u0440\u043a \u041f\u043e\u0431\u0435\u0434\u044b\u00bb",
+                                                  "id": 1789645.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f\u00bb",
+                                                  "id": 1789685.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0411\u043e\u043b\u044c\u0448\u0435\u0432\u0438\u043a\u043e\u0432\u00bb",
+                                                  "id": 1789730.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0421\u0430\u0434\u043e\u0432\u0430\u044f\u00bb",
+                                                  "id": 1789899.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0421\u043f\u0430\u0441\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789915.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789917.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0427\u0435\u0440\u043d\u044b\u0448\u0435\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789519.0
+                                             },
+                                             {
+                                                  "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1789830.0
+                                             },
+                                             {
+                                                  "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1709352.0
+                                             }
+                                        ]
+                                   },
+                                   {
+                                        "label": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u044b",
+                                        "itemMeta": "airports",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                                  "id": 1666049.0
+                                             }
+                                        ]
+                                   }
+                              ]
+                         },
+                         {
+                              "label": "\u0420\u0435\u0439\u0442\u0438\u043d\u0433 \u0433\u043e\u0441\u0442\u0435\u0439",
+                              "itemMeta": "rating",
+                              "choices": [
+                                   {
+                                        "label": "\u0420\u0435\u0439\u0442\u0438\u043d\u0433 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                        "value": "GUEST_RATING",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         },
+                         {
+                              "label": "\u0426\u0435\u043d\u0430",
+                              "itemMeta": "price",
+                              "selectedChoiceLabel": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                              "choices": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0443\u0431\u044b\u0432\u0430\u043d\u0438\u044e)",
+                                        "value": "PRICE_HIGHEST_FIRST",
+                                        "selected": false
+                                   },
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                                        "value": "PRICE",
+                                        "selected": true
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         }
+                    ],
+                    "distanceOptionLandmarkId": 1635711.0
+               },
+               "filters": {
+                    "applied": false,
+                    "name": {
+                         "item": {
+                              "value": ""
+                         },
+                         "autosuggest": {
+                              "additionalUrlParams": {
+                                   "resolved-location": "CITY:1635711:UNKNOWN:UNKNOWN",
+                                   "q-destination": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "destination-id": "1635711"
+                              }
+                         }
+                    },
+                    "starRating": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "value": 5
+                              },
+                              {
+                                   "value": 4
+                              },
+                              {
+                                   "value": 3
+                              },
+                              {
+                                   "value": 2
+                              },
+                              {
+                                   "value": 1
+                              }
+                         ]
+                    },
+                    "guestRating": {
+                         "range": {
+                              "min": {
+                                   "defaultValue": 0.0
+                              },
+                              "max": {
+                                   "defaultValue": 10.0
+                              }
+                         }
+                    },
+                    "landmarks": {
+                         "selectedOrder": [],
+                         "items": [
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                   "value": "1635711"
+                              },
+                              {
+                                   "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                   "value": "1666049"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u0430\u0430\u043a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u043e\u0431\u043e\u0440",
+                                   "value": "1665966"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                   "value": "1789830"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "11423570"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                   "value": "1789611"
+                              },
+                              {
+                                   "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                   "value": "1709352"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                   "value": "1789923"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u0434\u0432\u043e\u0440\u0435\u0446 \u0438 \u043f\u0430\u0440\u043a \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043c\u0443\u0437\u0435\u044f-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                   "value": "1647726"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a \u0438\u043c\u0435\u043d\u0438 300-\u043b\u0435\u0442\u0438\u044f \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                   "value": "11425219"
+                              },
+                              {
+                                   "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (RVH-\u0420\u0436\u0435\u0432\u043a\u0430)",
+                                   "value": "1666189"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1793461"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041a\u0440\u0435\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u00bb",
+                                   "value": "1789596"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u043e-\u043f\u0430\u0440\u043a\u043e\u0432\u044b\u0439 \u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c \u041f\u0435\u0442\u0435\u0440\u0433\u043e\u0444",
+                                   "value": "1647720"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0435\u0446 \u041a\u043e\u0442\u0442\u0435\u0434\u0436",
+                                   "value": "1788382"
+                              },
+                              {
+                                   "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f",
+                                   "value": "1793463"
+                              },
+                              {
+                                   "label": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0438\u0439\u0441\u043a\u0438\u0439 (\u041d\u0435\u0441\u043a\u0443\u0447\u043d\u044b\u0439) \u0434\u0432\u043e\u0440\u0435\u0446",
+                                   "value": "1647738"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                   "value": "1647746"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f\u00bb",
+                                   "value": "1789685"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1793466"
+                              }
+                         ],
+                         "distance": []
+                    },
+                    "neighbourhood": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1665968"
+                              },
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+                                   "value": "10565405"
+                              },
+                              {
+                                   "label": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10873634"
+                              },
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                   "value": "1735378"
+                              },
+                              {
+                                   "label": "\u041f\u0435\u0442\u0440\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430",
+                                   "value": "1665965"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 75",
+                                   "value": "11427286"
+                              },
+                              {
+                                   "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11423211"
+                              },
+                              {
+                                   "label": "\u0410\u0434\u043c\u0438\u0440\u0430\u043b\u0442\u0435\u0439\u0441\u043a\u0438\u0439",
+                                   "value": "10873958"
+                              },
+                              {
+                                   "label": "\u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11422740"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0443\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u043c\u0435\u0440\u0438\u0434\u0438\u0430\u043d",
+                                   "value": "11422073"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u0440\u043e\u043d\u0432\u0435\u0440\u043a\u0441\u043a\u043e\u0435",
+                                   "value": "11422877"
+                              },
+                              {
+                                   "label": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u043a\u0430",
+                                   "value": "1695476"
+                              },
+                              {
+                                   "label": "\u0421\u0435\u043d\u043d\u043e\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11424063"
+                              },
+                              {
+                                   "label": "\u041c\u0430\u043b\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "1695480"
+                              },
+                              {
+                                   "label": "\u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0438\u0439",
+                                   "value": "10873973"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 54",
+                                   "value": "11423754"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u043e\u0440\u043e\u0445\u043e\u0432\u044b\u0435",
+                                   "value": "11423627"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+                                   "value": "10873957"
+                              },
+                              {
+                                   "label": "\u0418\u0432\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427629"
+                              },
+                              {
+                                   "label": "\u041a\u0440\u0430\u0441\u043d\u043e\u0433\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10409743"
+                              },
+                              {
+                                   "label": "\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10565394"
+                              },
+                              {
+                                   "label": "\u041f\u043e\u043b\u044e\u0441\u0442\u0440\u043e\u0432\u043e",
+                                   "value": "1695483"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u0433\u043e\u043b\u043e\u0432\u043e",
+                                   "value": "1695482"
+                              },
+                              {
+                                   "label": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425913"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430",
+                                   "value": "11422540"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u043e\u043b\u043e\u043c\u043d\u0430",
+                                   "value": "11424812"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041b\u0438\u0433\u043e\u0432\u043a\u0430-\u042f\u043c\u0441\u043a\u0430\u044f",
+                                   "value": "11424678"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0438\u0441\u043a\u0430\u0440\u0451\u0432\u043a\u0430",
+                                   "value": "11423219"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041e\u043a\u043a\u0435\u0440\u0432\u0438\u043b\u044c",
+                                   "value": "11426001"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0417\u0432\u0451\u0437\u0434\u043d\u043e\u0435",
+                                   "value": "11425786"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u043b\u043e\u043c\u044f\u0433\u0438",
+                                   "value": "1695477"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u042e\u043d\u0442\u043e\u043b\u043e\u0432\u043e",
+                                   "value": "11424776"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425466"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0412\u043e\u043b\u043a\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11424385"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u0441\u0438\u043b\u0435\u043e\u0441\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12508989"
+                              },
+                              {
+                                   "label": "\u041b\u0430\u0445\u0442\u0430-\u041e\u043b\u044c\u0433\u0438\u043d\u043e",
+                                   "value": "12528285"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0427\u0451\u0440\u043d\u0430\u044f \u0440\u0435\u0447\u043a\u0430",
+                                   "value": "12484348"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u043c\u0451\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+                                   "value": "11422210"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041e\u0437\u0435\u0440\u043e \u0414\u043e\u043b\u0433\u043e\u0435",
+                                   "value": "12474646"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12483090"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12481241"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0433\u043e\u0444\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425128"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0420\u044b\u0431\u0430\u0446\u043a\u043e\u0435",
+                                   "value": "12514125"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12489720"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0441\u043a\u043e\u0435",
+                                   "value": "11425204"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0413\u0430\u0432\u0430\u043d\u044c",
+                                   "value": "12535060"
+                              },
+                              {
+                                   "label": "\u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425473"
+                              },
+                              {
+                                   "label": "\u041f\u043e\u0441\u0430\u0434\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12481244"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 78",
+                                   "value": "12496159"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
+                                   "value": "12523086"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041d\u043e\u0432\u043e\u0438\u0437\u043c\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11423776"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 72",
+                                   "value": "12528173"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0410\u043f\u0442\u0435\u043a\u0430\u0440\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+                                   "value": "11424655"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0440\u0430\u0432\u043e\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0439",
+                                   "value": "11427008"
+                              },
+                              {
+                                   "label": "\u041e\u0431\u0443\u0445\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427361"
+                              },
+                              {
+                                   "label": "\u0410\u0434\u043c\u0438\u0440\u0430\u043b\u0442\u0435\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12496266"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u00ab\u041e\u0437\u0435\u0440\u043e \u0414\u043e\u043b\u0433\u043e\u0435\u00bb",
+                                   "value": "12476830"
+                              },
+                              {
+                                   "label": "\u041f\u0440\u0430\u0432\u043e\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12537703"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0420\u044b\u0431\u0430\u0446\u043a\u043e\u0435",
+                                   "value": "11427178"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0433\u043e\u0444\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12496246"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u0430\u043b\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "12530551"
+                              },
+                              {
+                                   "label": "\u0428\u0443\u0432\u0430\u043b\u043e\u0432\u043e",
+                                   "value": "1695484"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+                                   "value": "12486257"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0432\u0435\u0442\u043b\u0430\u043d\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11424243"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "12509018"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u042e\u0433\u043e-\u0417\u0430\u043f\u0430\u0434",
+                                   "value": "11427228"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0414\u0430\u0447\u043d\u043e\u0435",
+                                   "value": "11424734"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0427\u043a\u0430\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11427514"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0435",
+                                   "value": "12496269"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0420\u0436\u0435\u0432\u043a\u0430",
+                                   "value": "11408403"
+                              },
+                              {
+                                   "label": "\u042e\u0436\u043d\u043e-\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12504712"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u043e\u0441\u043d\u043e\u0432\u0430\u044f \u043f\u043e\u043b\u044f\u043d\u0430",
+                                   "value": "11427610"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 21",
+                                   "value": "12476860"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
+                                   "value": "11423278"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u0440\u0433\u0438\u0435\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11425500"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0418\u0437\u043c\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11425335"
+                              },
+                              {
+                                   "label": "\u042e\u0436\u043d\u043e-\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427276"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041d\u0435\u0432\u0441\u043a\u0430\u044f \u0437\u0430\u0441\u0442\u0430\u0432\u0430",
+                                   "value": "11427303"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u043d\u044f\u0436\u0435\u0432\u043e",
+                                   "value": "11422388"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12499474"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10565396"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043d\u0430\u0441",
+                                   "value": "12489726"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u043c\u0435\u043d\u0434\u0430\u043d\u0442\u0441\u043a\u0438\u0439 \u0430\u044d\u0440\u043e\u0434\u0440\u043e\u043c",
+                                   "value": "12492766"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 65",
+                                   "value": "11423089"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0430\u043c\u043f\u0441\u043e\u043d\u0438\u0435\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11423698"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12476855"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u0437\u0430\u0441\u0442\u0430\u0432\u0430",
+                                   "value": "12480693"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11426987"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u043e\u0439",
+                                   "value": "12532930"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0435",
+                                   "value": "12487538"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0440\u0441\u043a\u043e\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12504695"
+                              },
+                              {
+                                   "label": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0414\u0435\u043a\u0430\u0431\u0440\u0438\u0441\u0442\u043e\u0432",
+                                   "value": "12537588"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u043c\u043e\u043b\u044c\u043d\u0438\u043d\u0441\u043a\u043e\u0435",
+                                   "value": "12497301"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430",
+                                   "value": "12492754"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0427\u0435\u0440\u043d\u0430\u044f \u0440\u0435\u0447\u043a\u0430",
+                                   "value": "12486353"
+                              },
+                              {
+                                   "label": "\u0413\u0435\u043e\u0440\u0433\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11422879"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 7",
+                                   "value": "12504563"
+                              },
+                              {
+                                   "label": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12492765"
+                              },
+                              {
+                                   "label": "\u0410\u0432\u0442\u043e\u0432\u043e",
+                                   "value": "1695471"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u00ab\u042e\u0433\u043e-\u0417\u0430\u043f\u0430\u0434\u00bb",
+                                   "value": "12509015"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439",
+                                   "value": "10565398"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "11427241"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "12477738"
+                              }
+                         ]
+                    },
+                    "accommodationType": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0410\u0433\u0440\u043e\u0442\u0443\u0440\u0438\u0437\u043c",
+                                   "value": "40"
+                              },
+                              {
+                                   "label": "\u0410\u043f\u0430\u0440\u0442-\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "20"
+                              },
+                              {
+                                   "label": "\u0413\u043e\u0441\u0442\u0435\u0432\u044b\u0435 \u0434\u043e\u043c\u0430",
+                                   "value": "30"
+                              },
+                              {
+                                   "label": "\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u044b",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0414\u043e\u043c\u0430 \u0434\u043b\u044f \u043e\u0442\u043f\u0443\u0441\u043a\u0430",
+                                   "value": "4"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u043f\u0441\u0443\u043b\u044c\u043d\u044b\u0435 \u043e\u0442\u0435\u043b\u0438",
+                                   "value": "43"
+                              },
+                              {
+                                   "label": "\u041a\u0432\u0430\u0440\u0442\u0438\u0440\u044b ",
+                                   "value": "15"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u0442\u0442\u0435\u0434\u0436\u0438",
+                                   "value": "11"
+                              },
+                              {
+                                   "label": "\u041a\u0443\u0440\u043e\u0440\u0442\u044b",
+                                   "value": "3"
+                              },
+                              {
+                                   "label": "\u041c\u0438\u043d\u0438-\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "5"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "7"
+                              },
+                              {
+                                   "label": "\u041e\u0442\u0435\u043b\u0438",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u043d\u0441\u0438\u043e\u043d\u044b",
+                                   "value": "25"
+                              },
+                              {
+                                   "label": "\u0425\u043e\u0441\u0442\u0435\u043b\u044b",
+                                   "value": "12"
+                              }
+                         ]
+                    },
+                    "facilities": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0412 \u0446\u0435\u043d\u0443 \u0432\u043a\u043b\u044e\u0447\u0435\u043d Wi-Fi",
+                                   "value": "527"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u043d\u0435\u043a\u0443\u0440\u044f\u0449\u0438\u0445",
+                                   "value": "529"
+                              },
+                              {
+                                   "label": "\u0417\u0430\u0432\u0442\u0440\u0430\u043a \u0432\u043a\u043b\u044e\u0447\u0435\u043d",
+                                   "value": "2048"
+                              },
+                              {
+                                   "label": "\u0418\u043c\u0435\u0435\u0442\u0441\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+                                   "value": "16384"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u0437\u0438\u043d\u043e",
+                                   "value": "2112"
+                              },
+                              {
+                                   "label": "\u041a\u0440\u0443\u0433\u043b\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u043e\u0439\u043a\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438",
+                                   "value": "2063"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0434\u0430\u043b\u0435\u043a\u043e \u043e\u0442 \u043b\u044b\u0436\u043d\u044b\u0445 \u0442\u0440\u0430\u0441\u0441",
+                                   "value": "535"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430",
+                                   "value": "134234112"
+                              },
+                              {
+                                   "label": "\u041f\u0443\u043d\u043a\u0442 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439",
+                                   "value": "1073743315"
+                              },
+                              {
+                                   "label": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0441 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u043c\u0438 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u043c\u0438",
+                                   "value": "64"
+                              },
+                              {
+                                   "label": "\u0421 \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u043e\u043c \u0434\u043e \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0445 \u0442\u0440\u0430\u0441\u0441",
+                                   "value": "531"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0430\u0440\u043e\u043c",
+                                   "value": "515"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0430\u0441\u0441\u0435\u0439\u043d\u043e\u043c",
+                                   "value": "128"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0438\u0437\u043d\u0435\u0441-\u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438",
+                                   "value": "519"
+                              },
+                              {
+                                   "label": "\u0421 \u0432\u0430\u043d\u043d\u043e\u0439 \u0432 \u043d\u043e\u043c\u0435\u0440\u0435",
+                                   "value": "517"
+                              },
+                              {
+                                   "label": "\u0421 \u0434\u0435\u0442\u0441\u043a\u0438\u043c\u0438 \u043a\u0440\u043e\u0432\u0430\u0442\u043a\u0430\u043c\u0438",
+                                   "value": "525"
+                              },
+                              {
+                                   "label": "\u0421 \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0421 \u0437\u043e\u043d\u0430\u043c\u0438 \u0434\u043b\u044f \u043a\u0443\u0440\u0435\u043d\u0438\u044f",
+                                   "value": "537"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446-\u0437\u0430\u043b\u0430\u043c\u0438",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u0443\u0445\u043d\u0435\u0439",
+                                   "value": "32"
+                              },
+                              {
+                                   "label": "\u0421 \u043c\u0435\u0441\u0442\u043e\u043c \u0434\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043b\u044b\u0436",
+                                   "value": "533"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043c\u0435\u0436\u043d\u044b\u043c\u0438 \u043d\u043e\u043c\u0435\u0440\u0430\u043c\u0438",
+                                   "value": "523"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043f\u0430-\u0441\u0430\u043b\u043e\u043d\u043e\u043c",
+                                   "value": "539"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u043e\u043c",
+                                   "value": "2"
+                              },
+                              {
+                                   "label": "\u0421 \u043f\u0440\u0438\u0441\u043c\u043e\u0442\u0440\u043e\u043c \u0437\u0430 \u0434\u0435\u0442\u044c\u043c\u0438",
+                                   "value": "521"
+                              },
+                              {
+                                   "label": "\u0421 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c",
+                                   "value": "256"
+                              },
+                              {
+                                   "label": "\u0421 \u0442\u0440\u0430\u043d\u0441\u0444\u0435\u0440\u043e\u043c \u0434\u043e \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0430",
+                                   "value": "513"
+                              }
+                         ]
+                    },
+                    "accessibility": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0411\u0435\u0437\u0431\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f",
+                                   "value": "65536"
+                              },
+                              {
+                                   "label": "\u0411\u0435\u0437\u0431\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0439 \u0434\u0443\u0448",
+                                   "value": "262144"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "131072"
+                              },
+                              {
+                                   "label": "\u041d\u043e\u043c\u0435\u0440\u0430 \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "541"
+                              },
+                              {
+                                   "label": "\u041e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043b\u044f \u0441\u043b\u0430\u0431\u043e\u0441\u043b\u044b\u0448\u0430\u0449\u0438\u0445",
+                                   "value": "2097152"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430, \u043f\u0440\u0438\u0441\u043f\u043e\u0441\u043e\u0431\u043b\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "524288"
+                              },
+                              {
+                                   "label": "\u0422\u0430\u043a\u0442\u0438\u043b\u044c\u043d\u044b\u0435 \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u0441\u043e \u0448\u0440\u0438\u0444\u0442\u043e\u043c \u0411\u0440\u0430\u0439\u043b\u044f \u0438\u043b\u0438 \u0440\u0435\u043b\u044c\u0435\u0444\u043d\u044b\u043c \u0448\u0440\u0438\u0444\u0442\u043e\u043c",
+                                   "value": "4194304"
+                              },
+                              {
+                                   "label": "\u0423\u0434\u043e\u0431\u0441\u0442\u0432\u0430 \u0432 \u043d\u043e\u043c\u0435\u0440\u0430\u0445 \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "1048576"
+                              }
+                         ]
+                    },
+                    "themesAndTypes": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0411\u0443\u0442\u0438\u043a",
+                                   "value": "4"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430",
+                                   "value": "18"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0433\u043e\u043b\u044c\u0444\u0430",
+                                   "value": "26"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0434\u0435\u043b\u043e\u0432\u044b\u0445 \u043b\u044e\u0434\u0435\u0439",
+                                   "value": "14"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u043b\u044b\u0436\u043d\u043e\u0433\u043e \u0441\u043f\u043e\u0440\u0442\u0430",
+                                   "value": "28"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0441\u0435\u043c\u0435\u0439\u043d\u043e\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430",
+                                   "value": "25"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435",
+                                   "value": "2"
+                              },
+                              {
+                                   "label": "\u041a\u043b\u0430\u0441\u0441\u0430 \u00ab\u043b\u044e\u043a\u0441\u00bb",
+                                   "value": "15"
+                              },
+                              {
+                                   "label": "\u041d\u0430 \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043d\u0438\u043a\u0430\u0445",
+                                   "value": "19"
+                              },
+                              {
+                                   "label": "\u041d\u0430 \u0442\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0445 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430\u0445",
+                                   "value": "22"
+                              },
+                              {
+                                   "label": "\u041f\u043b\u044f\u0436\u043d\u044b\u0435",
+                                   "value": "6"
+                              },
+                              {
+                                   "label": "\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u0430\u0437\u0438\u043d\u043e",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0421\u043f\u0430",
+                                   "value": "27"
+                              }
+                         ]
+                    },
+                    "price": {
+                         "label": "\u0421\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c (\u043e\u0431\u0449\u0430\u044f)",
+                         "range": {
+                              "min": {
+                                   "defaultValue": 0
+                              },
+                              "max": {
+                                   "defaultValue": 25000
+                              },
+                              "increments": 250
+                         },
+                         "multiplier": 1
+                    },
+                    "welcomeRewards": {
+                         "label": "Hotels.com\u2122 Rewards",
+                         "items": [
+                              {
+                                   "label": "\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0448\u0442\u0430\u043c\u043f\u044b",
+                                   "value": "collect"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0431\u043e\u043d\u0443\u0441\u043d\u044b\u0435* \u0441\u0443\u0442\u043a\u0438",
+                                   "value": "redeem"
+                              }
+                         ]
+                    }
+               },
+               "pointOfSale": {
+                    "currency": {
+                         "code": "RUB",
+                         "symbol": "RUB",
+                         "separators": ",.",
+                         "format": "{0} RUB"
+                    }
+               },
+               "miscellaneous": {
+                    "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1635711&hotelIds=1337368928,1774464480&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=90fd19f5-06ff-4f2e-9a57-061e78a5d338&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=ru_RU&testVersionOverride=4961.0,904.0,7561.1,7215.0,8218.0,8711.0,KES,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=ru.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1",
+                    "showLegalInfoForStrikethroughPrices": true,
+                    "legalInfoForStrikethroughPrices": "\u0417\u0430\u0447\u0435\u0440\u043a\u043d\u0443\u0442\u0430\u044f \u0446\u0435\u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0430 \u043d\u0430 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u043c \u0442\u0430\u0440\u0438\u0444\u0435 \u0432 \u043d\u0430\u0448\u0435\u043c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438, \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u043c \u0438 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u043e\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u043c \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u044f."
+               },
+               "pageInfo": {
+                    "pageType": "dateless"
+               }
+          },
+          "common": {
+               "pointOfSale": {
+                    "numberSeparators": "\u00a0,",
+                    "brandName": "Hotels.com"
+               },
+               "tracking": {
+                    "omniture": {
+                         "s.prop33": "D=v33",
+                         "s.prop32": "D=v43",
+                         "s.prop74": "search result without dates | ms not shown | NA",
+                         "s.products": "LOCAL;41761529,LOCAL;55420765",
+                         "s.eVar16": "Mob :: aApp",
+                         "s.eVar40": "D=v0",
+                         "s.eVar41": "RUB",
+                         "s.eVar63": "89327f0a-e2bc-4e79-8643-54ec136c12f2",
+                         "s.eVar42": "dateless",
+                         "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                         "s.eVar43": "ru_RU|HCOM_RU|ru.hotels.com",
+                         "s.eVar2": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+                         "s.eVar7": "",
+                         "s.server": "ru.hotels.com",
+                         "s.eVar6": "1635711",
+                         "s.prop29": "D=v42",
+                         "s.prop27": "90fd19f5-06ff-4f2e-9a57-061e78a5d338",
+                         "s.eVar9": "Price - low to high",
+                         "s.eVar69": "Mob :: aApp",
+                         "s.currencyCode": "RUB",
+                         "s.eVar26": "US:TX:BEDFORD:623",
+                         "s.eVar29": "Mob :: aApp",
+                         "s.prop9": "2300",
+                         "s.eVar95": "Unknown",
+                         "s.prop7": "2261",
+                         "s.eVar31": "D=v0",
+                         "s.eVar32": "D=v0",
+                         "s.eVar33": "search result without dates",
+                         "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.0,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:006.002,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000",
+                         "s.eVar13": "389273",
+                         "s.events": "event320",
+                         "s.prop18": "D=v6",
+                         "s.prop5": "389273",
+                         "s.prop15": "",
+                         "s.prop3": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "s.prop14": "D=v7",
+                         "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                         "s.eVar93": "aws.us-west-2.unknown",
+                         "s.prop2": "Price - low to high"
+                    }
+               }
+          }
+     }
+}2{
+     "result": "OK",
+     "data": {
+          "body": {
+               "header": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+               "query": {
+                    "destination": {
+                         "id": "1635711",
+                         "value": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "resolvedLocation": "CITY:1635711:UNKNOWN:UNKNOWN"
+                    }
+               },
+               "searchResults": {
+                    "totalCount": 2249,
+                    "results": [
+                         {
+                              "id": 1412395776,
+                              "name": "\u0410\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u044b Spbinn Lev",
+                              "starRating": 2.5,
+                              "urls": {},
+                              "address": {
+                                   "streetAddress": "\u0443\u043b. \u0411\u043e\u0440\u043e\u0432\u0430\u044f, 78 ",
+                                   "extendedAddress": "",
+                                   "locality": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                                   "postalCode": "192007",
+                                   "region": "",
+                                   "countryName": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "countryCode": "ru",
+                                   "obfuscate": false
+                              },
+                              "landmarks": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "distance": "3,3 \u043a\u043c"
+                                   },
+                                   {
+                                        "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                        "distance": "13 \u043a\u043c"
+                                   }
+                              ],
+                              "geoBullets": [],
+                              "ratePlan": {
+                                   "price": {
+                                        "current": "1,065 RUB",
+                                        "exactCurrent": 1064.89,
+                                        "old": "1,183 RUB"
+                                   },
+                                   "features": {
+                                        "paymentPreference": false,
+                                        "noCCRequired": false
+                                   }
+                              },
+                              "neighbourhood": "\u043e\u043a\u0440\u0443\u0433 \u0412\u043e\u043b\u043a\u043e\u0432\u0441\u043a\u043e\u0435",
+                              "deals": {},
+                              "messaging": {},
+                              "badging": {},
+                              "pimmsAttributes": "DoubleStamps|D13",
+                              "coordinate": {
+                                   "lat": 59.912076,
+                                   "lon": 30.342142
+                              },
+                              "providerType": "LOCAL",
+                              "supplierHotelId": 44106118,
+                              "isAlternative": false,
+                              "optimizedThumbUrls": {
+                                   "srpDesktop": "https://exp.cdn-hotels.com/hotels/45000000/44110000/44106200/44106118/a72df358_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                              }
+                         },
+                         {
+                              "id": 599670,
+                              "name": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 140",
+                              "starRating": 3.0,
+                              "urls": {},
+                              "address": {
+                                   "streetAddress": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440-\u0442, 140",
+                                   "extendedAddress": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0440-\u043d",
+                                   "locality": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                                   "postalCode": "191036",
+                                   "region": "",
+                                   "countryName": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "countryCode": "ru",
+                                   "obfuscate": false
+                              },
+                              "guestReviews": {
+                                   "unformattedRating": 6.8,
+                                   "rating": "6,8",
+                                   "total": 14,
+                                   "scale": 10,
+                                   "badge": "good",
+                                   "badgeText": "\u0425\u043e\u0440\u043e\u0448\u043e"
+                              },
+                              "landmarks": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "distance": "3,1 \u043a\u043c"
+                                   },
+                                   {
+                                        "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                        "distance": "16 \u043a\u043c"
+                                   }
+                              ],
+                              "geoBullets": [],
+                              "ratePlan": {
+                                   "price": {
+                                        "current": "1,070 RUB",
+                                        "exactCurrent": 1069.94,
+                                        "old": "1,189 RUB"
+                                   },
+                                   "features": {
+                                        "paymentPreference": false,
+                                        "noCCRequired": false
+                                   }
+                              },
+                              "neighbourhood": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+                              "deals": {},
+                              "messaging": {},
+                              "badging": {},
+                              "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                              "coordinate": {
+                                   "lat": 59.929634,
+                                   "lon": 30.368511
+                              },
+                              "providerType": "LOCAL",
+                              "supplierHotelId": 15403453,
+                              "isAlternative": false,
+                              "optimizedThumbUrls": {
+                                   "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15410000/15403500/15403453/89a1fc57_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                              }
+                         }
+                    ],
+                    "pagination": {
+                         "currentPage": 2,
+                         "pageGroup": "EXPEDIA_IN_POLYGON",
+                         "nextPageStartIndex": 2,
+                         "nextPageNumber": 3,
+                         "nextPageGroup": "EXPEDIA_IN_POLYGON"
+                    }
+               },
+               "sortResults": {
+                    "options": [
+                         {
+                              "label": "\u0417\u0432\u0435\u0437\u0434\u043d\u043e\u0441\u0442\u044c",
+                              "itemMeta": "star",
+                              "choices": [
+                                   {
+                                        "label": "\u0417\u0432\u0435\u0437\u0434\u044b (\u043f\u043e \u0443\u0431\u044b\u0432\u0430\u043d\u0438\u044e)",
+                                        "value": "STAR_RATING_HIGHEST_FIRST",
+                                        "selected": false
+                                   },
+                                   {
+                                        "label": "\u0417\u0432\u0435\u0437\u0434\u044b (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                                        "value": "STAR_RATING_LOWEST_FIRST",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         },
+                         {
+                              "label": "\u0420\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+                              "itemMeta": "distance",
+                              "choices": [
+                                   {
+                                        "label": "\u0420\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0434\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                        "value": "DISTANCE_FROM_LANDMARK",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": [
+                                   {
+                                        "label": "\u0427\u0442\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c",
+                                        "itemMeta": "landmarks",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                                  "id": 1635711.0
+                                             },
+                                             {
+                                                  "label": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0438\u0439\u0441\u043a\u0438\u0439 (\u041d\u0435\u0441\u043a\u0443\u0447\u043d\u044b\u0439) \u0434\u0432\u043e\u0440\u0435\u0446",
+                                                  "id": 1647738.0
+                                             },
+                                             {
+                                                  "label": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                                  "id": 1793460.0
+                                             },
+                                             {
+                                                  "label": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 \u00ab\u0414\u0432\u043e\u0440\u0435\u0446 \u043a\u043e\u043d\u0433\u0440\u0435\u0441\u0441\u043e\u0432\u00bb",
+                                                  "id": 1788542.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0435\u0446 \u041a\u043e\u0442\u0442\u0435\u0434\u0436",
+                                                  "id": 1788382.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                                  "id": 1647746.0
+                                             },
+                                             {
+                                                  "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u043e-\u043f\u0430\u0440\u043a\u043e\u0432\u044b\u0439 \u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c \u041f\u0435\u0442\u0435\u0440\u0433\u043e\u0444",
+                                                  "id": 1647720.0
+                                             },
+                                             {
+                                                  "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u0434\u0432\u043e\u0440\u0435\u0446 \u0438 \u043f\u0430\u0440\u043a \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043c\u0443\u0437\u0435\u044f-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                                  "id": 1647726.0
+                                             },
+                                             {
+                                                  "label": "\u0418\u0441\u0430\u0430\u043a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u043e\u0431\u043e\u0440",
+                                                  "id": 1665966.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0435\u0442\u043d\u0438\u0439 \u0441\u0430\u0434",
+                                                  "id": 1647742.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 1793461.0
+                                             },
+                                             {
+                                                  "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 1793466.0
+                                             },
+                                             {
+                                                  "label": "\u041c\u0443\u0437\u0435\u0439-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                                  "id": 1789448.0
+                                             },
+                                             {
+                                                  "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                                  "id": 11423570.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u0430\u0440\u043a \u0438\u043c\u0435\u043d\u0438 300-\u043b\u0435\u0442\u0438\u044f \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                                  "id": 11425219.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f",
+                                                  "id": 1793463.0
+                                             },
+                                             {
+                                                  "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u041f\u043e\u0431\u0435\u0434\u044b",
+                                                  "id": 1665963.0
+                                             },
+                                             {
+                                                  "label": "\u0421\u0430\u0434 \u0421\u0430\u043d-\u0413\u0430\u043b\u043b\u0438",
+                                                  "id": 12489120.0
+                                             },
+                                             {
+                                                  "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (RVH-\u0420\u0436\u0435\u0432\u043a\u0430)",
+                                                  "id": 1666189.0
+                                             },
+                                             {
+                                                  "label": "\u042d\u043a\u0441\u043f\u043e\u0444\u043e\u0440\u0443\u043c",
+                                                  "id": 1788364.0
+                                             }
+                                        ]
+                                   },
+                                   {
+                                        "label": "\u0412\u043e\u043a\u0437\u0430\u043b\u044b \u0438 \u0441\u0442\u0430\u043d\u0446\u0438\u0438",
+                                        "itemMeta": "stations",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0412\u0438\u0442\u0435\u0431\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1789831.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0413\u043e\u0441\u0442\u0438\u043d\u044b\u0439 \u0434\u0432\u043e\u0440\u00bb",
+                                                  "id": 1789592.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789594.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0414\u0435\u0432\u044f\u0442\u043a\u0438\u043d\u043e\u00bb",
+                                                  "id": 1789521.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041a\u0440\u0435\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u00bb",
+                                                  "id": 1789596.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789929.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789601.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789923.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789609.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430\u00bb",
+                                                  "id": 1789918.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                                  "id": 1789611.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u0430\u0440\u043a \u041f\u043e\u0431\u0435\u0434\u044b\u00bb",
+                                                  "id": 1789645.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f\u00bb",
+                                                  "id": 1789685.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u041f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0411\u043e\u043b\u044c\u0448\u0435\u0432\u0438\u043a\u043e\u0432\u00bb",
+                                                  "id": 1789730.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0421\u0430\u0434\u043e\u0432\u0430\u044f\u00bb",
+                                                  "id": 1789899.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0421\u043f\u0430\u0441\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789915.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789917.0
+                                             },
+                                             {
+                                                  "label": "\u043c. \u00ab\u0427\u0435\u0440\u043d\u044b\u0448\u0435\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                                  "id": 1789519.0
+                                             },
+                                             {
+                                                  "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1789830.0
+                                             },
+                                             {
+                                                  "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                                  "id": 1709352.0
+                                             }
+                                        ]
+                                   },
+                                   {
+                                        "label": "\u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u044b",
+                                        "itemMeta": "airports",
+                                        "choices": [
+                                             {
+                                                  "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                                  "id": 1666049.0
+                                             }
+                                        ]
+                                   }
+                              ]
+                         },
+                         {
+                              "label": "\u0420\u0435\u0439\u0442\u0438\u043d\u0433 \u0433\u043e\u0441\u0442\u0435\u0439",
+                              "itemMeta": "rating",
+                              "choices": [
+                                   {
+                                        "label": "\u0420\u0435\u0439\u0442\u0438\u043d\u0433 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                        "value": "GUEST_RATING",
+                                        "selected": false
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         },
+                         {
+                              "label": "\u0426\u0435\u043d\u0430",
+                              "itemMeta": "price",
+                              "selectedChoiceLabel": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                              "choices": [
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0443\u0431\u044b\u0432\u0430\u043d\u0438\u044e)",
+                                        "value": "PRICE_HIGHEST_FIRST",
+                                        "selected": false
+                                   },
+                                   {
+                                        "label": "\u0426\u0435\u043d\u0430 (\u043f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044e)",
+                                        "value": "PRICE",
+                                        "selected": true
+                                   }
+                              ],
+                              "enhancedChoices": []
+                         }
+                    ],
+                    "distanceOptionLandmarkId": 1635711.0
+               },
+               "filters": {
+                    "applied": false,
+                    "name": {
+                         "item": {
+                              "value": ""
+                         },
+                         "autosuggest": {
+                              "additionalUrlParams": {
+                                   "resolved-location": "CITY:1635711:UNKNOWN:UNKNOWN",
+                                   "q-destination": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                                   "destination-id": "1635711"
+                              }
+                         }
+                    },
+                    "starRating": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "value": 5
+                              },
+                              {
+                                   "value": 4
+                              },
+                              {
+                                   "value": 3
+                              },
+                              {
+                                   "value": 2
+                              },
+                              {
+                                   "value": 1
+                              }
+                         ]
+                    },
+                    "guestRating": {
+                         "range": {
+                              "min": {
+                                   "defaultValue": 0.0
+                              },
+                              "max": {
+                                   "defaultValue": 10.0
+                              }
+                         }
+                    },
+                    "landmarks": {
+                         "selectedOrder": [],
+                         "items": [
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430",
+                                   "value": "1635711"
+                              },
+                              {
+                                   "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (LED-\u041f\u0443\u043b\u043a\u043e\u0432\u043e)",
+                                   "value": "1666049"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u0430\u0430\u043a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u0441\u043e\u0431\u043e\u0440",
+                                   "value": "1665966"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                   "value": "1789830"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "11423570"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442\u00bb",
+                                   "value": "1789611"
+                              },
+                              {
+                                   "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u0432\u043e\u043a\u0437\u0430\u043b",
+                                   "value": "1709352"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u0430\u044f\u00bb",
+                                   "value": "1789923"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439 \u0434\u0432\u043e\u0440\u0435\u0446 \u0438 \u043f\u0430\u0440\u043a \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043c\u0443\u0437\u0435\u044f-\u0437\u0430\u043f\u043e\u0432\u0435\u0434\u043d\u0438\u043a\u0430 \u00ab\u0426\u0430\u0440\u0441\u043a\u043e\u0435 \u0421\u0435\u043b\u043e\u00bb",
+                                   "value": "1647726"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a \u0438\u043c\u0435\u043d\u0438 300-\u043b\u0435\u0442\u0438\u044f \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                   "value": "11425219"
+                              },
+                              {
+                                   "label": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (RVH-\u0420\u0436\u0435\u0432\u043a\u0430)",
+                                   "value": "1666189"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0433\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1793461"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041a\u0440\u0435\u0441\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432\u00bb",
+                                   "value": "1789596"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u043e-\u043f\u0430\u0440\u043a\u043e\u0432\u044b\u0439 \u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c \u041f\u0435\u0442\u0435\u0440\u0433\u043e\u0444",
+                                   "value": "1647720"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0435\u0446 \u041a\u043e\u0442\u0442\u0435\u0434\u0436",
+                                   "value": "1788382"
+                              },
+                              {
+                                   "label": "\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f",
+                                   "value": "1793463"
+                              },
+                              {
+                                   "label": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0438\u0439\u0441\u043a\u0438\u0439 (\u041d\u0435\u0441\u043a\u0443\u0447\u043d\u044b\u0439) \u0434\u0432\u043e\u0440\u0435\u0446",
+                                   "value": "1647738"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                                   "value": "1647746"
+                              },
+                              {
+                                   "label": "\u043c. \u00ab\u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f\u00bb",
+                                   "value": "1789685"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1793466"
+                              }
+                         ],
+                         "distance": []
+                    },
+                    "neighbourhood": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+                                   "value": "1665968"
+                              },
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+                                   "value": "10565405"
+                              },
+                              {
+                                   "label": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10873634"
+                              },
+                              {
+                                   "label": "\u0426\u0435\u043d\u0442\u0440 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0430",
+                                   "value": "1735378"
+                              },
+                              {
+                                   "label": "\u041f\u0435\u0442\u0440\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430",
+                                   "value": "1665965"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 75",
+                                   "value": "11427286"
+                              },
+                              {
+                                   "label": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11423211"
+                              },
+                              {
+                                   "label": "\u0410\u0434\u043c\u0438\u0440\u0430\u043b\u0442\u0435\u0439\u0441\u043a\u0438\u0439",
+                                   "value": "10873958"
+                              },
+                              {
+                                   "label": "\u0412\u0432\u0435\u0434\u0435\u043d\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11422740"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0443\u043b\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u043c\u0435\u0440\u0438\u0434\u0438\u0430\u043d",
+                                   "value": "11422073"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u0440\u043e\u043d\u0432\u0435\u0440\u043a\u0441\u043a\u043e\u0435",
+                                   "value": "11422877"
+                              },
+                              {
+                                   "label": "\u0413\u0440\u0430\u0436\u0434\u0430\u043d\u043a\u0430",
+                                   "value": "1695476"
+                              },
+                              {
+                                   "label": "\u0421\u0435\u043d\u043d\u043e\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11424063"
+                              },
+                              {
+                                   "label": "\u041c\u0430\u043b\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "1695480"
+                              },
+                              {
+                                   "label": "\u0424\u0440\u0443\u043d\u0437\u0435\u043d\u0441\u043a\u0438\u0439",
+                                   "value": "10873973"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 54",
+                                   "value": "11423754"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u043e\u0440\u043e\u0445\u043e\u0432\u044b\u0435",
+                                   "value": "11423627"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+                                   "value": "10873957"
+                              },
+                              {
+                                   "label": "\u0418\u0432\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427629"
+                              },
+                              {
+                                   "label": "\u041a\u0440\u0430\u0441\u043d\u043e\u0433\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10409743"
+                              },
+                              {
+                                   "label": "\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10565394"
+                              },
+                              {
+                                   "label": "\u041f\u043e\u043b\u044e\u0441\u0442\u0440\u043e\u0432\u043e",
+                                   "value": "1695483"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u0433\u043e\u043b\u043e\u0432\u043e",
+                                   "value": "1695482"
+                              },
+                              {
+                                   "label": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425913"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430",
+                                   "value": "11422540"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u043e\u043b\u043e\u043c\u043d\u0430",
+                                   "value": "11424812"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041b\u0438\u0433\u043e\u0432\u043a\u0430-\u042f\u043c\u0441\u043a\u0430\u044f",
+                                   "value": "11424678"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0438\u0441\u043a\u0430\u0440\u0451\u0432\u043a\u0430",
+                                   "value": "11423219"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041e\u043a\u043a\u0435\u0440\u0432\u0438\u043b\u044c",
+                                   "value": "11426001"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0417\u0432\u0451\u0437\u0434\u043d\u043e\u0435",
+                                   "value": "11425786"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u043b\u043e\u043c\u044f\u0433\u0438",
+                                   "value": "1695477"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u042e\u043d\u0442\u043e\u043b\u043e\u0432\u043e",
+                                   "value": "11424776"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425466"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0412\u043e\u043b\u043a\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11424385"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u0441\u0438\u043b\u0435\u043e\u0441\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12508989"
+                              },
+                              {
+                                   "label": "\u041b\u0430\u0445\u0442\u0430-\u041e\u043b\u044c\u0433\u0438\u043d\u043e",
+                                   "value": "12528285"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0427\u0451\u0440\u043d\u0430\u044f \u0440\u0435\u0447\u043a\u0430",
+                                   "value": "12484348"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u043c\u0451\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+                                   "value": "11422210"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041e\u0437\u0435\u0440\u043e \u0414\u043e\u043b\u0433\u043e\u0435",
+                                   "value": "12474646"
+                              },
+                              {
+                                   "label": "\u0414\u0432\u043e\u0440\u0446\u043e\u0432\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12483090"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12481241"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0433\u043e\u0444\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425128"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0420\u044b\u0431\u0430\u0446\u043a\u043e\u0435",
+                                   "value": "12514125"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12489720"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0441\u043a\u043e\u0435",
+                                   "value": "11425204"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0413\u0430\u0432\u0430\u043d\u044c",
+                                   "value": "12535060"
+                              },
+                              {
+                                   "label": "\u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11425473"
+                              },
+                              {
+                                   "label": "\u041f\u043e\u0441\u0430\u0434\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12481244"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 78",
+                                   "value": "12496159"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
+                                   "value": "12523086"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041d\u043e\u0432\u043e\u0438\u0437\u043c\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11423776"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 72",
+                                   "value": "12528173"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0410\u043f\u0442\u0435\u043a\u0430\u0440\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+                                   "value": "11424655"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041f\u0440\u0430\u0432\u043e\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0439",
+                                   "value": "11427008"
+                              },
+                              {
+                                   "label": "\u041e\u0431\u0443\u0445\u043e\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427361"
+                              },
+                              {
+                                   "label": "\u0410\u0434\u043c\u0438\u0440\u0430\u043b\u0442\u0435\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "12496266"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u00ab\u041e\u0437\u0435\u0440\u043e \u0414\u043e\u043b\u0433\u043e\u0435\u00bb",
+                                   "value": "12476830"
+                              },
+                              {
+                                   "label": "\u041f\u0440\u0430\u0432\u043e\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12537703"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0420\u044b\u0431\u0430\u0446\u043a\u043e\u0435",
+                                   "value": "11427178"
+                              },
+                              {
+                                   "label": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0433\u043e\u0444\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12496246"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u0430\u043b\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "12530551"
+                              },
+                              {
+                                   "label": "\u0428\u0443\u0432\u0430\u043b\u043e\u0432\u043e",
+                                   "value": "1695484"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u0441\u0442\u0440\u043e\u0432",
+                                   "value": "12486257"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0432\u0435\u0442\u043b\u0430\u043d\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11424243"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "12509018"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u042e\u0433\u043e-\u0417\u0430\u043f\u0430\u0434",
+                                   "value": "11427228"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0414\u0430\u0447\u043d\u043e\u0435",
+                                   "value": "11424734"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0427\u043a\u0430\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11427514"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0435",
+                                   "value": "12496269"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0420\u0436\u0435\u0432\u043a\u0430",
+                                   "value": "11408403"
+                              },
+                              {
+                                   "label": "\u042e\u0436\u043d\u043e-\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12504712"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u043e\u0441\u043d\u043e\u0432\u0430\u044f \u043f\u043e\u043b\u044f\u043d\u0430",
+                                   "value": "11427610"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 21",
+                                   "value": "12476860"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439",
+                                   "value": "11423278"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0435\u0440\u0433\u0438\u0435\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11425500"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0418\u0437\u043c\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11425335"
+                              },
+                              {
+                                   "label": "\u042e\u0436\u043d\u043e-\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11427276"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041d\u0435\u0432\u0441\u043a\u0430\u044f \u0437\u0430\u0441\u0442\u0430\u0432\u0430",
+                                   "value": "11427303"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041a\u043d\u044f\u0436\u0435\u0432\u043e",
+                                   "value": "11422388"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12499474"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                                   "value": "10565396"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043d\u0430\u0441",
+                                   "value": "12489726"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u043c\u0435\u043d\u0434\u0430\u043d\u0442\u0441\u043a\u0438\u0439 \u0430\u044d\u0440\u043e\u0434\u0440\u043e\u043c",
+                                   "value": "12492766"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u2116 65",
+                                   "value": "11423089"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u0430\u043c\u043f\u0441\u043e\u043d\u0438\u0435\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "11423698"
+                              },
+                              {
+                                   "label": "\u041b\u0438\u0442\u0435\u0439\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12476855"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u0437\u0430\u0441\u0442\u0430\u0432\u0430",
+                                   "value": "12480693"
+                              },
+                              {
+                                   "label": "\u041d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11426987"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u043e\u0439",
+                                   "value": "12532930"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0435",
+                                   "value": "12487538"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0440\u0441\u043a\u043e\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12504695"
+                              },
+                              {
+                                   "label": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0414\u0435\u043a\u0430\u0431\u0440\u0438\u0441\u0442\u043e\u0432",
+                                   "value": "12537588"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0421\u043c\u043e\u043b\u044c\u043d\u0438\u043d\u0441\u043a\u043e\u0435",
+                                   "value": "12497301"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u0438\u0435 \u0432\u043e\u0440\u043e\u0442\u0430",
+                                   "value": "12492754"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0427\u0435\u0440\u043d\u0430\u044f \u0440\u0435\u0447\u043a\u0430",
+                                   "value": "12486353"
+                              },
+                              {
+                                   "label": "\u0413\u0435\u043e\u0440\u0433\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "11422879"
+                              },
+                              {
+                                   "label": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433 \u2116 7",
+                                   "value": "12504563"
+                              },
+                              {
+                                   "label": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                                   "value": "12492765"
+                              },
+                              {
+                                   "label": "\u0410\u0432\u0442\u043e\u0432\u043e",
+                                   "value": "1695471"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u00ab\u042e\u0433\u043e-\u0417\u0430\u043f\u0430\u0434\u00bb",
+                                   "value": "12509015"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0441\u043a\u0438\u0439",
+                                   "value": "10565398"
+                              },
+                              {
+                                   "label": "\u043e\u043a\u0440\u0443\u0433 \u0411\u043e\u043b\u044c\u0448\u0430\u044f \u041e\u0445\u0442\u0430",
+                                   "value": "11427241"
+                              },
+                              {
+                                   "label": "\u041e\u043a\u0440\u0443\u0433 \u0421\u043e\u0441\u043d\u043e\u0432\u0441\u043a\u043e\u0435",
+                                   "value": "12477738"
+                              }
+                         ]
+                    },
+                    "accommodationType": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0410\u0433\u0440\u043e\u0442\u0443\u0440\u0438\u0437\u043c",
+                                   "value": "40"
+                              },
+                              {
+                                   "label": "\u0410\u043f\u0430\u0440\u0442-\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "20"
+                              },
+                              {
+                                   "label": "\u0413\u043e\u0441\u0442\u0435\u0432\u044b\u0435 \u0434\u043e\u043c\u0430",
+                                   "value": "30"
+                              },
+                              {
+                                   "label": "\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u044b",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0414\u043e\u043c\u0430 \u0434\u043b\u044f \u043e\u0442\u043f\u0443\u0441\u043a\u0430",
+                                   "value": "4"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u043f\u0441\u0443\u043b\u044c\u043d\u044b\u0435 \u043e\u0442\u0435\u043b\u0438",
+                                   "value": "43"
+                              },
+                              {
+                                   "label": "\u041a\u0432\u0430\u0440\u0442\u0438\u0440\u044b ",
+                                   "value": "15"
+                              },
+                              {
+                                   "label": "\u041a\u043e\u0442\u0442\u0435\u0434\u0436\u0438",
+                                   "value": "11"
+                              },
+                              {
+                                   "label": "\u041a\u0443\u0440\u043e\u0440\u0442\u044b",
+                                   "value": "3"
+                              },
+                              {
+                                   "label": "\u041c\u0438\u043d\u0438-\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "5"
+                              },
+                              {
+                                   "label": "\u041c\u043e\u0442\u0435\u043b\u0438",
+                                   "value": "7"
+                              },
+                              {
+                                   "label": "\u041e\u0442\u0435\u043b\u0438",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u043d\u0441\u0438\u043e\u043d\u044b",
+                                   "value": "25"
+                              },
+                              {
+                                   "label": "\u0425\u043e\u0441\u0442\u0435\u043b\u044b",
+                                   "value": "12"
+                              }
+                         ]
+                    },
+                    "facilities": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0412 \u0446\u0435\u043d\u0443 \u0432\u043a\u043b\u044e\u0447\u0435\u043d Wi-Fi",
+                                   "value": "527"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u043d\u0435\u043a\u0443\u0440\u044f\u0449\u0438\u0445",
+                                   "value": "529"
+                              },
+                              {
+                                   "label": "\u0417\u0430\u0432\u0442\u0440\u0430\u043a \u0432\u043a\u043b\u044e\u0447\u0435\u043d",
+                                   "value": "2048"
+                              },
+                              {
+                                   "label": "\u0418\u043c\u0435\u0435\u0442\u0441\u044f \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430",
+                                   "value": "16384"
+                              },
+                              {
+                                   "label": "\u041a\u0430\u0437\u0438\u043d\u043e",
+                                   "value": "2112"
+                              },
+                              {
+                                   "label": "\u041a\u0440\u0443\u0433\u043b\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u043e\u0439\u043a\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438",
+                                   "value": "2063"
+                              },
+                              {
+                                   "label": "\u041d\u0435\u0434\u0430\u043b\u0435\u043a\u043e \u043e\u0442 \u043b\u044b\u0436\u043d\u044b\u0445 \u0442\u0440\u0430\u0441\u0441",
+                                   "value": "535"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430",
+                                   "value": "134234112"
+                              },
+                              {
+                                   "label": "\u041f\u0443\u043d\u043a\u0442 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439",
+                                   "value": "1073743315"
+                              },
+                              {
+                                   "label": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0441 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u043c\u0438 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u043c\u0438",
+                                   "value": "64"
+                              },
+                              {
+                                   "label": "\u0421 \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u043e\u043c \u0434\u043e \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0445 \u0442\u0440\u0430\u0441\u0441",
+                                   "value": "531"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0430\u0440\u043e\u043c",
+                                   "value": "515"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0430\u0441\u0441\u0435\u0439\u043d\u043e\u043c",
+                                   "value": "128"
+                              },
+                              {
+                                   "label": "\u0421 \u0431\u0438\u0437\u043d\u0435\u0441-\u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438",
+                                   "value": "519"
+                              },
+                              {
+                                   "label": "\u0421 \u0432\u0430\u043d\u043d\u043e\u0439 \u0432 \u043d\u043e\u043c\u0435\u0440\u0435",
+                                   "value": "517"
+                              },
+                              {
+                                   "label": "\u0421 \u0434\u0435\u0442\u0441\u043a\u0438\u043c\u0438 \u043a\u0440\u043e\u0432\u0430\u0442\u043a\u0430\u043c\u0438",
+                                   "value": "525"
+                              },
+                              {
+                                   "label": "\u0421 \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0421 \u0437\u043e\u043d\u0430\u043c\u0438 \u0434\u043b\u044f \u043a\u0443\u0440\u0435\u043d\u0438\u044f",
+                                   "value": "537"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446-\u0437\u0430\u043b\u0430\u043c\u0438",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u0443\u0445\u043d\u0435\u0439",
+                                   "value": "32"
+                              },
+                              {
+                                   "label": "\u0421 \u043c\u0435\u0441\u0442\u043e\u043c \u0434\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043b\u044b\u0436",
+                                   "value": "533"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043c\u0435\u0436\u043d\u044b\u043c\u0438 \u043d\u043e\u043c\u0435\u0440\u0430\u043c\u0438",
+                                   "value": "523"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043f\u0430-\u0441\u0430\u043b\u043e\u043d\u043e\u043c",
+                                   "value": "539"
+                              },
+                              {
+                                   "label": "\u0421\u043e \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u043e\u043c",
+                                   "value": "2"
+                              },
+                              {
+                                   "label": "\u0421 \u043f\u0440\u0438\u0441\u043c\u043e\u0442\u0440\u043e\u043c \u0437\u0430 \u0434\u0435\u0442\u044c\u043c\u0438",
+                                   "value": "521"
+                              },
+                              {
+                                   "label": "\u0421 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c",
+                                   "value": "256"
+                              },
+                              {
+                                   "label": "\u0421 \u0442\u0440\u0430\u043d\u0441\u0444\u0435\u0440\u043e\u043c \u0434\u043e \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0430",
+                                   "value": "513"
+                              }
+                         ]
+                    },
+                    "accessibility": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0411\u0435\u0437\u0431\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f",
+                                   "value": "65536"
+                              },
+                              {
+                                   "label": "\u0411\u0435\u0437\u0431\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0439 \u0434\u0443\u0448",
+                                   "value": "262144"
+                              },
+                              {
+                                   "label": "\u0412\u0430\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "131072"
+                              },
+                              {
+                                   "label": "\u041d\u043e\u043c\u0435\u0440\u0430 \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "541"
+                              },
+                              {
+                                   "label": "\u041e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043b\u044f \u0441\u043b\u0430\u0431\u043e\u0441\u043b\u044b\u0448\u0430\u0449\u0438\u0445",
+                                   "value": "2097152"
+                              },
+                              {
+                                   "label": "\u041f\u0430\u0440\u043a\u043e\u0432\u043a\u0430, \u043f\u0440\u0438\u0441\u043f\u043e\u0441\u043e\u0431\u043b\u0435\u043d\u043d\u0430\u044f \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "524288"
+                              },
+                              {
+                                   "label": "\u0422\u0430\u043a\u0442\u0438\u043b\u044c\u043d\u044b\u0435 \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u0441\u043e \u0448\u0440\u0438\u0444\u0442\u043e\u043c \u0411\u0440\u0430\u0439\u043b\u044f \u0438\u043b\u0438 \u0440\u0435\u043b\u044c\u0435\u0444\u043d\u044b\u043c \u0448\u0440\u0438\u0444\u0442\u043e\u043c",
+                                   "value": "4194304"
+                              },
+                              {
+                                   "label": "\u0423\u0434\u043e\u0431\u0441\u0442\u0432\u0430 \u0432 \u043d\u043e\u043c\u0435\u0440\u0430\u0445 \u0434\u043b\u044f \u043c\u0430\u043b\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0433\u043e\u0441\u0442\u0435\u0439",
+                                   "value": "1048576"
+                              }
+                         ]
+                    },
+                    "themesAndTypes": {
+                         "applied": false,
+                         "items": [
+                              {
+                                   "label": "\u0411\u0443\u0442\u0438\u043a",
+                                   "value": "4"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430",
+                                   "value": "18"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0433\u043e\u043b\u044c\u0444\u0430",
+                                   "value": "26"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0434\u0435\u043b\u043e\u0432\u044b\u0445 \u043b\u044e\u0434\u0435\u0439",
+                                   "value": "14"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u043b\u044b\u0436\u043d\u043e\u0433\u043e \u0441\u043f\u043e\u0440\u0442\u0430",
+                                   "value": "28"
+                              },
+                              {
+                                   "label": "\u0414\u043b\u044f \u0441\u0435\u043c\u0435\u0439\u043d\u043e\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430",
+                                   "value": "25"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0435",
+                                   "value": "2"
+                              },
+                              {
+                                   "label": "\u041a\u043b\u0430\u0441\u0441\u0430 \u00ab\u043b\u044e\u043a\u0441\u00bb",
+                                   "value": "15"
+                              },
+                              {
+                                   "label": "\u041d\u0430 \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043d\u0438\u043a\u0430\u0445",
+                                   "value": "19"
+                              },
+                              {
+                                   "label": "\u041d\u0430 \u0442\u0435\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0445 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430\u0445",
+                                   "value": "22"
+                              },
+                              {
+                                   "label": "\u041f\u043b\u044f\u0436\u043d\u044b\u0435",
+                                   "value": "6"
+                              },
+                              {
+                                   "label": "\u0420\u043e\u043c\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435",
+                                   "value": "1"
+                              },
+                              {
+                                   "label": "\u0421 \u043a\u0430\u0437\u0438\u043d\u043e",
+                                   "value": "8"
+                              },
+                              {
+                                   "label": "\u0421\u043f\u0430",
+                                   "value": "27"
+                              }
+                         ]
+                    },
+                    "price": {
+                         "label": "\u0421\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c (\u043e\u0431\u0449\u0430\u044f)",
+                         "range": {
+                              "min": {
+                                   "defaultValue": 0
+                              },
+                              "max": {
+                                   "defaultValue": 25000
+                              },
+                              "increments": 250
+                         },
+                         "multiplier": 1
+                    },
+                    "welcomeRewards": {
+                         "label": "Hotels.com\u2122 Rewards",
+                         "items": [
+                              {
+                                   "label": "\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u0448\u0442\u0430\u043c\u043f\u044b",
+                                   "value": "collect"
+                              },
+                              {
+                                   "label": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0431\u043e\u043d\u0443\u0441\u043d\u044b\u0435* \u0441\u0443\u0442\u043a\u0438",
+                                   "value": "redeem"
+                              }
+                         ]
+                    }
+               },
+               "pointOfSale": {
+                    "currency": {
+                         "code": "RUB",
+                         "symbol": "RUB",
+                         "separators": ",.",
+                         "format": "{0} RUB"
+                    }
+               },
+               "miscellaneous": {
+                    "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1635711&hotelIds=1412395776,599670&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=01dad364-6938-487b-a559-1a0c75ab4be9&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=ru_RU&testVersionOverride=4961.0,904.0,7561.1,7215.0,8218.0,8711.0,KES,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=ru.hotels.com&userIP=24.32.74.150&action=pageview&publisher=expedia&programId=1",
+                    "showLegalInfoForStrikethroughPrices": true,
+                    "legalInfoForStrikethroughPrices": "\u0417\u0430\u0447\u0435\u0440\u043a\u043d\u0443\u0442\u0430\u044f \u0446\u0435\u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0430 \u043d\u0430 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u043c \u0442\u0430\u0440\u0438\u0444\u0435 \u0432 \u043d\u0430\u0448\u0435\u043c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438, \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u043c \u0438 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u043e\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u043c \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u044f."
+               },
+               "pageInfo": {
+                    "pageType": "dateless"
+               }
+          },
+          "common": {
+               "pointOfSale": {
+                    "numberSeparators": "\u00a0,",
+                    "brandName": "Hotels.com"
+               },
+               "tracking": {
+                    "omniture": {
+                         "s.prop33": "D=v33",
+                         "s.prop32": "D=v43",
+                         "s.prop74": "search result without dates | ms not shown | NA",
+                         "s.products": "LOCAL;44106118,LOCAL;15403453",
+                         "s.eVar16": "Mob :: aApp",
+                         "s.eVar40": "D=v0",
+                         "s.eVar41": "RUB",
+                         "s.eVar63": "e560ec72-834a-48ed-8817-03dcd97274c1",
+                         "s.eVar42": "dateless",
+                         "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                         "s.eVar43": "ru_RU|HCOM_RU|ru.hotels.com",
+                         "s.eVar2": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+                         "s.eVar7": "",
+                         "s.server": "ru.hotels.com",
+                         "s.eVar6": "1635711",
+                         "s.prop29": "D=v42",
+                         "s.prop27": "01dad364-6938-487b-a559-1a0c75ab4be9",
+                         "s.eVar9": "Price - low to high",
+                         "s.eVar69": "Mob :: aApp",
+                         "s.currencyCode": "RUB",
+                         "s.eVar26": "US:TX:BRADY:661",
+                         "s.eVar29": "Mob :: aApp",
+                         "s.prop9": "2249",
+                         "s.eVar95": "Unknown",
+                         "s.prop7": "2214",
+                         "s.eVar31": "D=v0",
+                         "s.eVar32": "D=v0",
+                         "s.eVar33": "search result without dates",
+                         "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.0,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:006.002,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+                         "s.eVar13": "389273",
+                         "s.events": "event320",
+                         "s.prop18": "D=v6",
+                         "s.prop5": "389273",
+                         "s.prop15": "",
+                         "s.prop3": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u043e\u0441\u0441\u0438\u044f",
+                         "s.prop14": "D=v7",
+                         "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                         "s.eVar93": "aws.us-east-1.unknown",
+                         "s.prop2": "Price - low to high"
+                    }
+               }
+          }
+     }
+}

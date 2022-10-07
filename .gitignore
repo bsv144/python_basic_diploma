@@ -1,0 +1,7 @@
+.vscode
+.venv
+.idea
+__pycache__
+secret.json
+/telegram_bot.db
+/telegramBot.log
